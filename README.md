@@ -70,6 +70,10 @@ The neural network is therefore a screening and hypothesis-generation tool, not 
 
 The notebook retains the Materials Project setup for candidate crystal structures and structural descriptors. Because the existing local insertion-electrode cache does not contain ionic-conductivity labels, a separate conductivity table is required before training.
 
+### Materials Project initialization
+
+The notebook preserves the original cache-first Materials Project workflow. Normal execution reads `data/raw/mp_li_insertion_electrodes.json` without making a network request. To intentionally refresh the source, place `MP_API_KEY` in a local `.env` file and set `FORCE_MP_REFRESH = True`; the notebook negotiates fields supported by the current insertion-electrode endpoint and records the database version and returned fields in `data/raw/download_metadata.json`. The API key is never written to the notebook or project data files.
+
 ## Four-week ML plan
 
 | Week | Primary outcome |
