@@ -67,11 +67,13 @@ The neural network is therefore a screening and hypothesis-generation tool, not 
 - `data/processed/obelix_conductivity_clean.csv` — 562 exact labels normalized to the project schema with linked validation groups.
 - `data/processed/obelix_mlp_cv_results.csv` — linked-group validation results for six neural-network configurations.
 - `data/processed/obelix_mlp_test_predictions.csv` — untouched-test predictions, ensemble spread, errors, and train-calibrated intervals.
+- `data/processed/obelix_structure_manifest.csv` — provenance, hashes, parsing results, occupancy flags, and metadata checks for all 599 OBELiX records.
 - `data/processed/mp_li_solid_electrolyte_candidates.csv` — 5,068 Materials Project entries passing the broad stability, band-gap, and composition prescreen.
 - `data/processed/mp_li_solid_electrolyte_domain_audit.csv` — candidate applicability flags; it intentionally contains no conductivity predictions.
 - `figures/figure_01_physics_informed_conductivity_model.png` — project architecture figure using the UIUC brand palette.
 - `figures/figure_02_obelix_data_audit.png` — label, split, structure-coverage, and repeatability audit.
 - `figures/figure_03_mlp_and_mp_screening_gate.png` — neural-baseline validation and Materials Project screening decision.
+- `figures/figure_04_obelix_structure_manifest.png` — structure provenance, metadata validation, and partial-occupancy audit.
 
 The notebook retains the Materials Project setup for candidate crystal structures and structural descriptors. Because the existing local insertion-electrode cache does not contain ionic-conductivity labels, a separate conductivity table is required before training.
 
@@ -92,9 +94,11 @@ A second cache uses the official Materials Project summary endpoint to identify 
 
 ## Current status
 
-The target, data contract, OBELiX audit, composition-only neural baseline, and Materials Project consultation now run end to end. The cleaned table contains 562 exact positive labels split into 449 training and 113 held-out test records; 287 exact-label records have a CIF, including 61 close structural matches.
+The target, data contract, OBELiX audit, composition-only neural baseline, Materials Project consultation, and structure manifest now run end to end. The cleaned table contains 562 exact positive labels split into 449 training and 113 held-out test records. Of these, 285 have a public OBELiX CIF (224 direct-source and 61 close-analogue structures), while two additional records have external ICSD references but no public local file.
 
-The selected 32-unit MLP reaches 1.66 dex MAE on the official held-out test set, compared with 1.55 dex for the training-median reference, and therefore fails the predefined screening gate. No Materials Project conductivity ranking is reported. The next model will extract frozen CHGNet structure embeddings for the higher-confidence structural subset and will be evaluated against the same baselines on common held-out records before any candidate ranking is permitted.
+The selected 32-unit MLP reaches 1.66 dex MAE on the official held-out test set, compared with 1.55 dex for the training-median reference, and therefore fails the predefined screening gate. No Materials Project conductivity ranking is reported.
+
+All 321 public CIFs parse successfully, 288 pass the conservative composition-and-symmetry metadata audit, and 249 contain partial or mixed occupancies requiring an explicit representation decision. Only 41 exact-label records are currently direct-source, metadata-validated, and already ordered. The next step is therefore Materials Project structure matching and occupancy-resolution sensitivity analysis before frozen CHGNet embeddings are extracted.
 
 ## Scope and limitations
 
