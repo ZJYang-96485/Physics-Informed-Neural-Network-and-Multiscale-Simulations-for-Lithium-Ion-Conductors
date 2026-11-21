@@ -29,12 +29,25 @@ where the neural network learns a positive activation energy $\widehat E_a$ and 
 The planned primary model is a **Physics-Informed Arrhenius Crystal Graph Neural Network (PI-ACGNN)**:
 
 - A pretrained crystal graph encoder, initially CHGNet, represents atoms and their periodic local environments.
-- Neural heads estimate activation energy, conductivity prefactor, and data-dependent uncertainty.
-- An Arrhenius physics layer generates temperature-conditioned conductivity predictions.
+- The first trainable head predicts room-temperature conductivity and data-dependent uncertainty.
+- Activation-energy, prefactor, and Arrhenius physics heads are added only after multi-temperature labels make them identifiable.
 - A multi-seed ensemble estimates model uncertainty.
 - A composition-only multilayer perceptron and an unconstrained crystal graph network provide neural-network baselines.
 
 All measurements for the same material remain in the same validation fold. A stronger generalization test holds out complete chemical systems so that reported performance reflects unfamiliar chemistry rather than duplicate-material leakage.
+
+## Data foundation and project advancement
+
+The first supervised source is [OBELiX](https://doi.org/10.1039/d5dd00441a), a peer-reviewed dataset of 599 experimental room-temperature lithium solid-electrolyte records. The official data include composition, space group, lattice parameters, source DOI, and 321 associated CIF structures and are distributed under CC BY 4.0 through the [NRC-Mila repository](https://github.com/NRC-Mila/OBELiX).
+
+The project uses the literature benchmark as a foundation and adds the following developments:
+
+- A provenance-preserving project schema with explicit unit, source, phase, structure-match, and nominal-temperature fields.
+- Correct handling of 37 censored upper-bound values instead of treating them as exact regression labels.
+- Connected validation groups that keep records sharing either material identity or source DOI together.
+- Transfer learning and uncertainty calibration designed for the small structure-labeled subset.
+- An identifiability gate that prevents fitting physical-looking Arrhenius parameters from room-temperature-only data.
+- A path from ML-selected variables and materials to later DFT, MD, and phase-field simulations.
 
 ## Connection to multiscale simulation
 
@@ -48,9 +61,12 @@ The neural network is therefore a screening and hypothesis-generation tool, not 
 
 ## Current contents
 
-- `battery_materials_project.ipynb` — Day 1 target definition, data contract, validation rules, neural-network mathematics, and architecture.
+- `battery_materials_project.ipynb` — target definition, data contract, literature-backed audit, neural-network mathematics, and staged model design.
 - `data/processed/ionic_conductivity_intake_template.csv` — schema for conductivity labels and source metadata.
+- `data/raw/obelix_{all,train,test}.csv` — official OBELiX source tables and leakage-controlled split.
+- `data/processed/obelix_conductivity_clean.csv` — 562 exact labels normalized to the project schema with linked validation groups.
 - `figures/figure_01_physics_informed_conductivity_model.png` — project architecture figure using the UIUC brand palette.
+- `figures/figure_02_obelix_data_audit.png` — label, split, structure-coverage, and repeatability audit.
 
 The notebook retains the Materials Project setup for candidate crystal structures and structural descriptors. Because the existing local insertion-electrode cache does not contain ionic-conductivity labels, a separate conductivity table is required before training.
 
@@ -65,8 +81,13 @@ The notebook retains the Materials Project setup for candidate crystal structure
 
 ## Current status
 
-Day 1 is complete: the prediction target, unit convention, row definition, required metadata, validation groups, neural architecture, and figure standard are defined. The next step is conductivity-data ingestion and quality auditing.
+The target and data contract are complete, and the OBELiX ingestion and quality audit runs end to end. The cleaned table contains 562 exact positive labels split into 449 training and 113 held-out test records; 287 exact-label records have a CIF, including 61 close structural matches. The next modeling step is a composition-only neural baseline before transfer learning on the smaller structure subset.
 
 ## Scope and limitations
 
 The first model is limited to inorganic solid-state lithium-ion conductors. Its accuracy may be constrained by inconsistent literature measurements, limited chemical diversity, uncertain phase matching, and sparse structures. Ionic conductivity alone does not determine electrochemical stability, processability, cycle life, or full-cell performance.
+
+## Methodological references
+
+- Therrien et al., “OBELiX: a curated dataset of crystal structures and experimentally measured ionic conductivities for lithium solid-state electrolytes,” *Digital Discovery* (2026), [doi:10.1039/d5dd00441a](https://doi.org/10.1039/d5dd00441a).
+- Deng et al., “CHGNet as a pretrained universal neural network potential for charge-informed atomistic modelling,” *Nature Machine Intelligence* (2023), [doi:10.1038/s42256-023-00716-3](https://doi.org/10.1038/s42256-023-00716-3).
