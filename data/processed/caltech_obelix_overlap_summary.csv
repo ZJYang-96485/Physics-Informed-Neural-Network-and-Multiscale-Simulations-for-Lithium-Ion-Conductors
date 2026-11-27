@@ -1,0 +1,15 @@
+metric,count,source
+caltech_public_rows,571,CaltechDATA v1 / OBELiX exact-label audit
+formula_parseable_rows,567,CaltechDATA v1 / OBELiX exact-label audit
+formula_overlap_rows,337,CaltechDATA v1 / OBELiX exact-label audit
+doi_overlap_rows,301,CaltechDATA v1 / OBELiX exact-label audit
+formula_and_doi_overlap_rows,270,CaltechDATA v1 / OBELiX exact-label audit
+numeric_extrapolation_temperature_rows,135,CaltechDATA v1 / OBELiX exact-label audit
+provisional_nonoverlap_rows,169,CaltechDATA v1 / OBELiX exact-label audit
+provisional_unique_formulas,162,CaltechDATA v1 / OBELiX exact-label audit
+provisional_unique_dois,88,CaltechDATA v1 / OBELiX exact-label audit
+provisional_fast_rows_at_1e_minus_4_S_cm,82,CaltechDATA v1 / OBELiX exact-label audit
+obelix_exact_train_rows,449,CaltechDATA v1 / OBELiX exact-label audit
+train_plus_provisional_label_inventory_rows,618,CaltechDATA v1 / OBELiX exact-label audit
+obelix_structured_train_rows,159,CaltechDATA v1 / OBELiX exact-label audit
+obelix_structured_train_groups,68,CaltechDATA v1 / OBELiX exact-label audit

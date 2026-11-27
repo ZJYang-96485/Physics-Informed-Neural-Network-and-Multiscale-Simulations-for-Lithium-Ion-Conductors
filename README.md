@@ -4,6 +4,14 @@ This senior-design project develops a physics-constrained neural network to pred
 
 ![Physics-informed ionic-conductivity model](figures/figure_01_physics_informed_conductivity_model.png)
 
+## Current model decision
+
+The existing two-branch neural network is a **diagnostic baseline**, not a material-selection model. Its structured training set has 159 verified conductivity–CIF pairs but only 68 connected material/publication groups. The official test split has influenced earlier iterations, so future model choices use training-only group folds and require a new external-family holdout.
+
+[McHaffie et al.](https://doi.org/10.1039/D5DD00052A) demonstrate occupancy-aware transfer learning for small experimental structure datasets, while [OBELiX](https://doi.org/10.1039/D5DD00441A) documents overlap among sources and overfitting of large graph networks. We therefore plan an occupancy-aware graph encoder pretrained on Materials Project crystal properties, followed by a small conductivity classifier and regressor. A physics-based Arrhenius head requires verified multi-temperature labels; single-temperature measurements cannot identify a migration barrier separately from the prefactor. This plan will be tested against the current scratch network before any MP conductivity ranking.
+
+The [CaltechDATA public CSV](https://data.caltech.edu/records/23mvv-6gk43) contains 571 rows. After a conservative formula/DOI and extrapolation-flag audit against OBELiX, 169 rows (162 formulas) remain **provisional**; original measurement conditions and phase identities still need review. Their measured values, ICSD identifiers, source-paper DOIs, and dataset DOI are in `data/processed/caltech_provisional_external_labels.csv`. See [Figure 13](figures/figure_13_effective_label_scale.png) and `data/processed/caltech_obelix_overlap_summary.csv`. Materials Project adds unlabeled structures and feasibility metadata, not measured conductivity labels.
+
 ## Research objective
 
 Ionic conductivity is commonly measured experimentally or estimated using computationally expensive atomistic simulations. This project first builds a data-driven screening model that predicts conductivity and quantifies uncertainty, then uses verified evidence to prioritize a smaller set of materials for detailed physical simulation.
@@ -33,11 +41,11 @@ where the neural network learns a positive activation energy $\widehat E_a$ and 
 
 ## Modeling approach
 
-The current feasible model is a **small two-branch, occupancy-aware neural network with a physical transport layer**. The longer-term graph and Arrhenius extensions remain conditional on data quality:
+The implemented diagnostic model is a **small two-branch, occupancy-aware neural network with a physical transport layer**. The next research model uses transfer learning with disorder-aware crystal sites; an Arrhenius extension remains conditional on multi-temperature data:
 
 - Composition and occupancy-aware structural features describe Li-site density, local geometry, and anion chemistry.
 - A neural head predicts a positive effective transport factor; the physical layer combines it with Li density to produce room-temperature conductivity.
-- A pretrained crystal graph encoder, initially CHGNet, is an ablation when enough trustworthy ordered structures are available.
+- The frozen-CHGNet ordered-structure pilot is an existing ablation; the next encoder must retain fractional site occupancies and be evaluated on the larger structured cohort.
 - Activation-energy, prefactor, and Arrhenius physics heads are added only after multi-temperature labels make them identifiable.
 - A multi-seed ensemble estimates model uncertainty.
 - Direct-conductivity and composition-only multilayer perceptrons provide neural-network baselines.
@@ -74,6 +82,8 @@ The neural network is therefore a screening and hypothesis-generation tool, not 
 - `data/processed/ionic_conductivity_intake_template.csv` — schema for conductivity labels and source metadata.
 - `data/raw/obelix_{all,train,test}.csv` — official OBELiX source tables and leakage-controlled split.
 - `data/processed/obelix_conductivity_clean.csv` — 562 exact labels normalized to the project schema with linked validation groups.
+- `data/processed/caltech_provisional_external_labels.csv` — 169 source-attributed experimental measurements with original-paper and dataset DOIs, pending phase and measurement review.
+- `data/processed/caltech_obelix_overlap_summary.csv` — reproducible counts for source overlap and usable-data scale.
 - `data/processed/obelix_mlp_cv_results.csv` — linked-group validation results for six neural-network configurations.
 - `data/processed/obelix_mlp_test_predictions.csv` — untouched-test predictions, ensemble spread, errors, and train-calibrated intervals.
 - `data/processed/obelix_structure_manifest.csv` — provenance, hashes, parsing results, occupancy flags, and metadata checks for all 599 OBELiX records.
@@ -113,6 +123,7 @@ The neural network is therefore a screening and hypothesis-generation tool, not 
 - `figures/figure_10_two_branch_train_validation.png` — UIUC-color comparison of family-balanced error and fast-conductor retrieval.
 - `figures/figure_11_neural_refinement_ablation.png` — UIUC-color feature and screening-loss ablation on linked-family folds.
 - `figures/figure_12_mp_review_structure_coverage.png` — UIUC-color MP input funnel and experimental-versus-MP structure-representation audit.
+- `figures/figure_13_effective_label_scale.png` — UIUC-color supervised-data scale and external-source overlap audit.
 
 The notebook retains the Materials Project setup for candidate crystal structures and structural descriptors. Because the existing local insertion-electrode cache does not contain ionic-conductivity labels, a separate conductivity table is required before training.
 
