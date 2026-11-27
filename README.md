@@ -68,12 +68,15 @@ The neural network is therefore a screening and hypothesis-generation tool, not 
 - `data/processed/obelix_mlp_cv_results.csv` — linked-group validation results for six neural-network configurations.
 - `data/processed/obelix_mlp_test_predictions.csv` — untouched-test predictions, ensemble spread, errors, and train-calibrated intervals.
 - `data/processed/obelix_structure_manifest.csv` — provenance, hashes, parsing results, occupancy flags, and metadata checks for all 599 OBELiX records.
+- `data/processed/obelix_mp_structure_match_pairs.csv` — composition, symmetry, and geometric results for each shortlisted OBELiX–MP pair.
+- `data/processed/obelix_mp_structure_match_summary.csv` — one matching status per OBELiX record, including records outside the screened MP subset.
 - `data/processed/mp_li_solid_electrolyte_candidates.csv` — 5,068 Materials Project entries passing the broad stability, band-gap, and composition prescreen.
 - `data/processed/mp_li_solid_electrolyte_domain_audit.csv` — candidate applicability flags; it intentionally contains no conductivity predictions.
 - `figures/figure_01_physics_informed_conductivity_model.png` — project architecture figure using the UIUC brand palette.
 - `figures/figure_02_obelix_data_audit.png` — label, split, structure-coverage, and repeatability audit.
 - `figures/figure_03_mlp_and_mp_screening_gate.png` — neural-baseline validation and Materials Project screening decision.
 - `figures/figure_04_obelix_structure_manifest.png` — structure provenance, metadata validation, and partial-occupancy audit.
+- `figures/figure_05_obelix_mp_structure_matching.png` — first-pass structure matching counts in the UIUC palette.
 
 The notebook retains the Materials Project setup for candidate crystal structures and structural descriptors. Because the existing local insertion-electrode cache does not contain ionic-conductivity labels, a separate conductivity table is required before training.
 
@@ -98,7 +101,7 @@ The target, data contract, OBELiX audit, composition-only neural baseline, Mater
 
 The selected 32-unit MLP reaches 1.66 dex MAE on the official held-out test set, compared with 1.55 dex for the training-median reference, and therefore fails the predefined screening gate. No Materials Project conductivity ranking is reported.
 
-All 321 public CIFs parse successfully, 288 pass the conservative composition-and-symmetry metadata audit, and 249 contain partial or mixed occupancies requiring an explicit representation decision. Only 41 exact-label records are currently direct-source, metadata-validated, and already ordered. The next step is therefore Materials Project structure matching and occupancy-resolution sensitivity analysis before frozen CHGNet embeddings are extracted.
+All 321 public CIFs parse successfully, 288 pass the conservative composition-and-symmetry metadata audit, and 249 contain partial or mixed occupancies requiring an explicit representation decision. Only 41 exact-label records are currently direct-source, metadata-validated, and already ordered. In the first pass against the **screened** Materials Project pool, 57 OBELiX–MP pairs were shortlisted; geometry agreed for 42 pairs, including 31 ordered direct-source matches and 11 close-analogue matches. This is not an exhaustive search of Materials Project. The next step is occupancy-resolution sensitivity analysis and a wider MP search before frozen CHGNet embeddings are extracted.
 
 ## Scope and limitations
 
