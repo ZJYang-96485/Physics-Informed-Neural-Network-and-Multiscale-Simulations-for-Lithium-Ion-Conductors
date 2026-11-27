@@ -1,4 +1,14 @@
-# Physics-Informed Neural Network and Multiscale Simulations for Lithium-Ion Conductors
+# Physics-Informed Neural Modeling and Multiscale Simulations for Li/Na Battery Cathodes
+
+## Current cathode scope (November 2026)
+
+The senior design target is **ion transport within practical intercalation cathodes**, starting with Li and Na. The moving ion is an explicit input; voltage, capacity, computed phase stability, volume change, and synthesis evidence are separate material-selection checks. The first 33 notebook sections document an earlier **solid-electrolyte** conductivity prototype and must not be interpreted as a validated cathode predictor or used to rank cathodes.
+
+The new cathode data audit is in notebook Section 34. A [literature DFT-NEB dataset](https://doi.org/10.1038/s41597-025-06196-x) provides 619 downloadable migration-path records; coordinate changes identify 175 Li and 109 Na paths. Paper titles explicitly mention cathodes for 71 of these paths (38 Li, 33 Na). A [Materials Project insertion-electrode](https://docs.materialsproject.org/apps/explorer-apps/battery-explorer/tutorial) summary contains 2,774 Li and 416 Na computed electrode documents; 58 of the 71 cathode-titled paths share a host **composition** with an MP document. The Li cache is from MP version 2026.04.13 and the Na query from 2026.09.28. These are research leads, not phase-verified matches or cathode conductivity measurements. See [source audit](data/processed/cathode_data_source_audit.csv), [barrier leads](data/processed/cathode_migration_barrier_leads.csv), [MP Li/Na electrode summary](data/processed/mp_li_na_insertion_electrode_summary.csv), and [composition-level joins](data/processed/cathode_barrier_mp_framework_matches.csv).
+
+The next data gate is to assemble experimental **cathode** transport measurements with ion, composition/state of charge, temperature, measurement method, and original DOI. GITT chemical diffusivity, tracer diffusivity, migration barriers, and ionic conductivity remain different targets. The old electrolyte labels are excluded from direct cathode supervision; barrier data can support an auxiliary physics task after phase and role review.
+
+## Earlier electrolyte prototype (archived working notes)
 
 This senior-design project develops a physics-constrained neural network to predict room-temperature lithium-ion conductivity from composition and verified crystal structure. The practical deliverable is three to five reviewable material-design cards: experimentally indexed parent phases, controlled composition changes, stability and synthesis evidence, uncertainty, and proposed tests. Detailed multiscale simulations follow the four-week ML phase.
 
