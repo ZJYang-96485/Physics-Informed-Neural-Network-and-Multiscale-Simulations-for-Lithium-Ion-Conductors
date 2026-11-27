@@ -75,6 +75,8 @@ The neural network is therefore a screening and hypothesis-generation tool, not 
 - `data/processed/obelix_occupancy_sensitivity.csv` — changes in composition, Li content, and atom count under two diagnostic site-occupancy thresholds.
 - `data/processed/obelix_chgnet_frozen_features.csv` — 64-dimensional pretrained CHGNet features for 41 ordered direct-source experimental CIFs, with source hashes and model version.
 - `data/processed/obelix_chgnet_pilot_{cv,test}.csv` — connected-group model selection and predictions on the same official held-out records for both neural heads.
+- `data/processed/obelix_occupancy_structural_features.csv` — versioned, occupancy-aware Li-neighborhood and density descriptors for 202 validated direct-source CIFs.
+- `data/processed/obelix_structural_mlp_{cv,test,group_audit}.csv` — same-cohort neural comparison, official test predictions, and equal-weight-per-group error audit.
 - `data/processed/mp_li_solid_electrolyte_candidates.csv` — 5,068 Materials Project entries passing the broad stability, band-gap, and composition prescreen.
 - `data/processed/mp_li_solid_electrolyte_domain_audit.csv` — candidate applicability flags; it intentionally contains no conductivity predictions.
 - `figures/figure_01_physics_informed_conductivity_model.png` — project architecture figure using the UIUC brand palette.
@@ -84,6 +86,7 @@ The neural network is therefore a screening and hypothesis-generation tool, not 
 - `figures/figure_05_obelix_mp_structure_matching.png` — first-pass structure matching counts in the UIUC palette.
 - `figures/figure_06_mp_wide_and_occupancy.png` — wider matching yield and occupancy sensitivity in the UIUC palette.
 - `figures/figure_07_frozen_chgnet_pilot.png` — same-cohort neural comparison on the ordered experimental CIFs.
+- `figures/figure_08_occupancy_structural_pilot.png` — record-weighted and group-balanced errors on the expanded structure cohort.
 
 The notebook retains the Materials Project setup for candidate crystal structures and structural descriptors. Because the existing local insertion-electrode cache does not contain ionic-conductivity labels, a separate conductivity table is required before training.
 
@@ -108,11 +111,13 @@ The target, data contract, OBELiX audit, composition-only neural baseline, Mater
 
 The selected 32-unit MLP reaches 1.66 dex MAE on the official held-out test set, compared with 1.55 dex for the training-median reference, and therefore fails the predefined screening gate. No Materials Project conductivity ranking is reported.
 
-All 321 public CIFs parse successfully, 288 pass the conservative composition-and-symmetry metadata audit, and 249 contain partial or mixed occupancies requiring an explicit representation decision. Only 41 exact-label records are currently direct-source, metadata-validated, and already ordered. The first pass against the **screened** Materials Project pool found 31 ordered direct-source geometric matches. A wider formula query without the screening filters raises that count to 35, but remains limited to exact formula queries.
+All 321 public CIFs parse successfully, 288 pass the conservative composition-and-symmetry metadata audit, and 249 contain partial or mixed occupancies requiring an explicit representation decision. Only 41 exact-label records are currently direct-source, metadata-validated, and already ordered. The first pass against the **screened** Materials Project pool found 31 ordered direct-source geometric matches. A wider formula query without the screening filters raises that count to 35, but remains limited to exact formula queries. Those 35 are already in the 41-record ordered cohort and add no new conductivity labels.
 
 For 161 audited, disordered direct-source records, changing the occupancy threshold from 0.50 to 0.70 changes the resolved representation for 100 records. Median normalized composition drift is 0.19 and 0.33, respectively; the policies even remove every Li site for 52 and 83 records. These diagnostics rule out simple threshold rounding as universal CHGNet preprocessing.
 
 The first frozen-CHGNet pilot uses 41 ordered direct-source CIFs (33 official training, 8 official test). The CHGNet neural head reaches about 2.96 dex test MAE, versus about 2.59 dex for a composition neural head and 3.54 dex for the training median. These are the **same eight test records** for all methods. Two source-reported conductivity extremes, 4.4 × 10⁻¹⁸ and 3.2 × 10⁻³ S/cm, account for over half the total absolute error. The paired group-bootstrap interval for the CHGNet-minus-composition MAE includes zero, so this pilot does not establish a reliable model ranking. Figure 7 now shows each material's error. The public OBELiX release includes positionally perturbed CIFs, but the authors' [supplementary benchmark](https://www.rsc.org/suppdata/d5/dd/d5dd00441a/d5dd00441a1.pdf) found no significant effect of this perturbation for its tested geometric models. The Materials Project conductivity ranking remains closed while we enlarge the labeled structure cohort and validate the representation.
+
+The next neural comparison uses 202 direct-source, metadata-validated CIFs with exact labels (159 official training and 43 official test), including 161 with partial occupancy. Eleven interpretable structural descriptors retain site occupancies and exclude Li–Li separations below 1.5 Å that can represent mutually exclusive split sites. The structure-augmented neural head reaches **1.84 dex record-weighted test MAE**, versus **2.43 dex** for its same-cohort composition head and **1.82 dex** for the training median. The 43 test records form only 20 connected groups; when each group receives equal weight, the three MAEs are **2.73, 2.87, and 2.76 dex**, respectively. One ten-record family supplies much of the apparent record-level gain, and the paired group-bootstrap interval for the structure-minus-composition difference includes zero. This is a diagnostic advance in coverage, not a validated screening model.
 
 The notebook uses `chgnet==0.4.2` and its pretrained `0.3.0` checkpoint for this pilot. Install the package in the notebook's environment with `python -m pip install chgnet==0.4.2`; the saved feature CSV allows cache-first reruns when package and CIF hashes match.
 
@@ -125,3 +130,4 @@ The first model is limited to inorganic solid-state lithium-ion conductors. Its 
 - Therrien et al., “OBELiX: a curated dataset of crystal structures and experimentally measured ionic conductivities for lithium solid-state electrolytes,” *Digital Discovery* (2026), [doi:10.1039/d5dd00441a](https://doi.org/10.1039/d5dd00441a).
 - Deng et al., “CHGNet as a pretrained universal neural network potential for charge-informed atomistic modelling,” *Nature Machine Intelligence* (2023), [doi:10.1038/s42256-023-00716-3](https://doi.org/10.1038/s42256-023-00716-3).
 - Sendek et al., “Holistic computational structure screening of more than 12,000 candidates for solid lithium-ion conductor materials,” *Energy & Environmental Science* (2017), [doi:10.1039/C6EE02697D](https://doi.org/10.1039/C6EE02697D).
+- Sendek et al., “Machine Learning-Assisted Discovery of Solid Li-Ion Conducting Materials,” *Chemistry of Materials* (2019), [doi:10.1021/acs.chemmater.8b03272](https://doi.org/10.1021/acs.chemmater.8b03272).
