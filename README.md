@@ -6,7 +6,7 @@ This senior-design project develops a physics-constrained neural network to pred
 
 ## Current model decision
 
-The existing two-branch neural network is a **diagnostic baseline**, not a material-selection model. Its structured training set has 159 verified conductivity–CIF pairs but only 68 connected material/publication groups. The official test split has influenced earlier iterations, so future model choices use training-only group folds and require a new external-family holdout.
+The existing two-branch neural network is a **diagnostic baseline**, not a material-selection model. Its structured training set has 159 verified conductivity–CIF pairs but only 68 connected material/publication groups. It accepts composition and six structure descriptors and returns a numerical room-temperature conductivity estimate in S/cm as well as a fast-conductor score. Section 31 demonstrates inference on the MP review pool and saves exploratory predictions in `data/processed/mp_review_pool_exploratory_conductivity_predictions.csv`; these are not validated material recommendations. The official test split has influenced earlier iterations, so future model choices use training-only group folds and require a new external-family holdout.
 
 [McHaffie et al.](https://doi.org/10.1039/D5DD00052A) demonstrate occupancy-aware transfer learning for small experimental structure datasets, while [OBELiX](https://doi.org/10.1039/D5DD00441A) documents overlap among sources and overfitting of large graph networks. We therefore plan an occupancy-aware graph encoder pretrained on Materials Project crystal properties, followed by a small conductivity classifier and regressor. A physics-based Arrhenius head requires verified multi-temperature labels; single-temperature measurements cannot identify a migration barrier separately from the prefactor. This plan will be tested against the current scratch network before any MP conductivity ranking.
 
@@ -114,6 +114,7 @@ The neural network is therefore a screening and hypothesis-generation tool, not 
 - `data/processed/obelix_train_li_network_proxy.csv` — versioned, training-only periodic Li-site connectivity descriptors and source-CIF hashes.
 - `data/processed/obelix_path_proxy_pilot_{cv,summary}.csv` — grouped neural ablation of the literature-guided path proxy.
 - `data/processed/mp_neural_input_contract.csv` — each MP field's role as model input, optional ablation, feasibility gate, or identifier.
+- `data/processed/mp_review_pool_exploratory_conductivity_predictions.csv` — numerical neural conductivity predictions and measured-analogue comparisons for MP review phases; exploratory and unvalidated.
 - `data/processed/obelix_train_structural_eda.csv` — record-level, between-family, and within-family structural associations with conductivity.
 - `data/processed/mp_obelix_descriptor_shift.csv` — matched experimental-CIF versus MP-relaxed descriptor differences for 35 phases.
 - `data/processed/mp_senior_design_review_pool.csv` — 115 experimentally indexed, approximately in-domain MP phases in training-observed chemical systems, for literature review only.
