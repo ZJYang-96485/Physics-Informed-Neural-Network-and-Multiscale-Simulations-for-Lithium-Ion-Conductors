@@ -33,7 +33,7 @@ where the neural network learns a positive activation energy $\widehat E_a$ and 
 
 ## Modeling approach
 
-The current feasible model is a **small occupancy-aware neural network with a hard physical transport layer**. The longer-term graph and Arrhenius extensions remain conditional on data quality:
+The current feasible model is a **small two-branch, occupancy-aware neural network with a physical transport layer**. The longer-term graph and Arrhenius extensions remain conditional on data quality:
 
 - Composition and occupancy-aware structural features describe Li-site density, local geometry, and anion chemistry.
 - A neural head predicts a positive effective transport factor; the physical layer combines it with Li density to produce room-temperature conductivity.
@@ -41,6 +41,7 @@ The current feasible model is a **small occupancy-aware neural network with a ha
 - Activation-energy, prefactor, and Arrhenius physics heads are added only after multi-temperature labels make them identifiable.
 - A multi-seed ensemble estimates model uncertainty.
 - Direct-conductivity and composition-only multilayer perceptrons provide neural-network baselines.
+- A second screening head learns the measured $10^{-4}$ S/cm threshold; its score is not calibrated as a probability.
 
 All measurements for the same material remain in the same validation fold. A stronger generalization test holds out complete chemical systems so that reported performance reflects unfamiliar chemistry rather than duplicate-material leakage.
 
@@ -87,6 +88,8 @@ The neural network is therefore a screening and hypothesis-generation tool, not 
 - `data/processed/obelix_structural_mlp_{cv,test,group_audit}.csv` — same-cohort neural comparison, official test predictions, and equal-weight-per-group error audit.
 - `data/processed/obelix_retrospective_selection_audit.csv` — group-diverse top-five selection check at 10⁻⁴ and 10⁻³ S/cm on the official held-out data.
 - `data/processed/obelix_physics_head_train_cv.csv` — training-only, connected-family out-of-fold predictions for direct and physical transport-layer neural heads.
+- `data/processed/obelix_two_branch_train_cv.csv` — train-only out-of-fold conductivity predictions and screening scores for the compact direct and physical two-branch networks.
+- `data/processed/obelix_two_branch_family_audit.csv` — family-level errors and fast-conductor retrieval audit for the two-branch prototype.
 - `data/processed/mp_neural_input_contract.csv` — each MP field's role as model input, optional ablation, feasibility gate, or identifier.
 - `data/processed/obelix_train_structural_eda.csv` — record-level, between-family, and within-family structural associations with conductivity.
 - `data/processed/mp_obelix_descriptor_shift.csv` — matched experimental-CIF versus MP-relaxed descriptor differences for 35 phases.
@@ -102,6 +105,7 @@ The neural network is therefore a screening and hypothesis-generation tool, not 
 - `figures/figure_07_frozen_chgnet_pilot.png` — same-cohort neural comparison on the ordered experimental CIFs.
 - `figures/figure_08_occupancy_structural_pilot.png` — record-weighted and group-balanced errors on the expanded structure cohort.
 - `figures/figure_09_training_structural_eda.png` — training-only between-family and within-family associations plus input correlations.
+- `figures/figure_10_two_branch_train_validation.png` — UIUC-color comparison of family-balanced error and fast-conductor retrieval.
 
 The notebook retains the Materials Project setup for candidate crystal structures and structural descriptors. Because the existing local insertion-electrode cache does not contain ionic-conductivity labels, a separate conductivity table is required before training.
 
@@ -138,6 +142,8 @@ For design selection, the notebook now asks whether a model can find materials a
 
 The first physical transport-layer ablation uses only the 159 structured training records and 68 connected groups. Its group-balanced cross-validation MAE is **1.86 dex**, essentially tied with **1.85 dex** for the same-size direct neural head. The physical factorization is therefore an explicit modeling constraint, not evidence of better accuracy. Training-only exploratory analysis shows that vacancy fraction and Li occupancy correlate with conductivity **between** material families but much less **within** families; correlated inputs are reduced through ablations rather than treated as universal rules. A paired check of 35 accepted MP–OBELiX structures quantifies descriptor shifts before MP inference.
 
+The next prototype implements separate composition and six-descriptor structure branches, a shared 16-unit layer, and joint conductivity and fast-conductor heads. It trains on the same 159 records using five connected-family folds, equal family loss weight, and two random seeds. The direct head obtains **1.93 dex** family-balanced MAE and identifies **7/10** fast families among the ten highest screening scores; the physical head obtains **2.06 dex** and **8/10**, respectively. The physical-minus-direct MAE difference is **+0.13 dex**, with a paired family-bootstrap descriptive 95% interval of **−0.07 to +0.41 dex**. Both heads find four fast families in their top five, and the training-fold median reference has 2.48 dex family-balanced MAE. This is a mixed result on a small cohort, so neither head is ready for MP ranking. The next ML step is a train-only feature and chemistry-family stability audit, followed by a fresh external holdout for a locked model.
+
 The MP input contract separates transport inputs (composition and verified structure-derived occupancy/geometry) from feasibility filters (band gap, metallicity, hull energy, and experimental structure index). The cached 5,068-entry broad prescreen narrows to 115 metadata-only review phases after experimental-index, approximate-domain, and observed-chemical-system checks; 102 have hull energy at or below 25 meV/atom. These are **not recommended materials**: actual synthesis reports, exact phase identity, processing conditions, and electrode compatibility remain to be checked before design cards are issued.
 
 The notebook uses `chgnet==0.4.2` and its pretrained `0.3.0` checkpoint for this pilot. Install the package in the notebook's environment with `python -m pip install chgnet==0.4.2`; the saved feature CSV allows cache-first reruns when package and CIF hashes match.
@@ -152,3 +158,4 @@ The first model is limited to inorganic solid-state lithium-ion conductors. Its 
 - Deng et al., “CHGNet as a pretrained universal neural network potential for charge-informed atomistic modelling,” *Nature Machine Intelligence* (2023), [doi:10.1038/s42256-023-00716-3](https://doi.org/10.1038/s42256-023-00716-3).
 - Sendek et al., “Holistic computational structure screening of more than 12,000 candidates for solid lithium-ion conductor materials,” *Energy & Environmental Science* (2017), [doi:10.1039/C6EE02697D](https://doi.org/10.1039/C6EE02697D).
 - Sendek et al., “Machine Learning-Assisted Discovery of Solid Li-Ion Conducting Materials,” *Chemistry of Materials* (2019), [doi:10.1021/acs.chemmater.8b03272](https://doi.org/10.1021/acs.chemmater.8b03272).
+- Marcolongo and Marzari, “Ionic correlations and failure of Nernst–Einstein relation in solid-state electrolytes,” *Physical Review Materials* (2017), [doi:10.1103/PhysRevMaterials.1.025402](https://doi.org/10.1103/PhysRevMaterials.1.025402).
