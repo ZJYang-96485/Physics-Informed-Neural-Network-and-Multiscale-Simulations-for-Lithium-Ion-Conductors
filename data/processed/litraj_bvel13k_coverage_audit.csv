@@ -1,0 +1,9 @@
+metric,count
+BVEL13k crystal-level rows,12807
+BVEL13k chemical systems,1812
+BVEL13k training structures,10159
+BVEL13k rows in MP review chemical systems,1044
+MP review chemical systems covered,40
+MP review chemical systems total,43
+BVEL13k rows in broad MP search chemical systems,11594
+Exact old-to-new MP ID matches (not a phase test),0
