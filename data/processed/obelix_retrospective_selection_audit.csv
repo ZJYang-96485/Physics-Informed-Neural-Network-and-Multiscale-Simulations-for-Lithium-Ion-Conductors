@@ -1,0 +1,5 @@
+method,threshold_log10_S_cm,test_groups,positive_representative_groups,top5_hits,top5_precision,top10_hits,average_precision,AUROC,random_top5_P_at_least_observed
+Composition MLP,-4.0,20,7,3,0.6,4,0.5186179735051916,0.6263736263736264,0.20678534571723425
+Composition MLP,-3.0,20,5,1,0.2,2,0.25977443609022555,0.44,0.8063080495356038
+Composition + structure MLP,-4.0,20,8,4,0.8,5,0.7442936148818502,0.7083333333333333,0.057791537667698664
+Composition + structure MLP,-3.0,20,5,2,0.4,2,0.35831070889894423,0.52,0.36609907120743035
