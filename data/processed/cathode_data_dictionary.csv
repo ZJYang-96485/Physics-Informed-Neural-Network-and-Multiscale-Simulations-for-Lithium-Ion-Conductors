@@ -1,0 +1,21 @@
+variable,unit,evidence_level,source,interpretation
+mobile_ion,Li or Na,source identity,MP / Devi,Required input for ion-specific transport modeling.
+framework_key,normalized non-mobile element proportions,derived composition key,MP / Devi,Groups host chemistry; does not verify crystal phase.
+id_charge; id_discharge,Materials Project IDs,source identifiers,MP,Different endpoints of an insertion-electrode document.
+x_charge_ions_per_host; x_discharge_ions_per_host,ions per non-mobile host formula,calculated composition,MP,Nominal endpoint composition; not measured occupancy.
+delta_x_ions_per_host,ions per non-mobile host formula,calculated composition,MP,Nominal insertion range between charged and discharged phases.
+average_voltage_V,V versus ion metal,computed electrode property,MP,Feasibility screen; not a transport label.
+capacity_mAh_g,mAh/g,computed electrode property,MP,Feasibility screen; not measured cycling capacity.
+stability_charge_eV_atom; stability_discharge_eV_atom,eV/atom above hull,computed thermodynamic property,MP,Endpoint stability proxy; no synthesis guarantee.
+max_delta_volume_fraction,unitless fraction,computed electrode property,MP,Maximum volume expansion ratio; 0.15 means 15%.
+max_delta_volume_percent,percent,derived from fraction,MP,100 times max_delta_volume_fraction.
+migration_barrier_eV,eV,computed DFT-NEB target,Devi et al.,Auxiliary target; not an experimental conductivity label.
+hop_length_A,angstrom,calculated from path endpoints,Devi et al.,Minimum-image moving-ion endpoint separation.
+mobile_ion_number_density_cm3,ions/cm3,calculated from source structure,Devi et al.,Occupied mobile-ion count divided by cell volume; not true mobile-carrier density.
+cathode_role_evidence,category,literature title heuristic,Devi et al.,"Cathode title is a review lead, not a verified cathode phase."
+discharged_structure_evidence,category,MP metadata,MP,ICSD link supports experimental structure identity; no link is not proof of unsynthesized status.
+text_mined_recipe_formula_match,boolean,formula-only join,MP / Kononova et al.,Original recipe and polymorph require independent review.
+reported_max_heating_temperature_C,degree Celsius,text-mined recipe value,Kononova et al.,Reported maximum parsed heating temperature; verify original paper.
+reported_inert_atmosphere,boolean/blank,text-mined recipe flag,Kononova et al.,Text cue only; blank means unavailable.
+original_paper_doi,DOI,source publication reference,Kononova et al.,Original recipe paper per formula-level evidence row.
+experimental_cathode_transport_label_available,boolean,project audit flag,all audited sources,False for all current MP pool records; no calibrated conductivity target.

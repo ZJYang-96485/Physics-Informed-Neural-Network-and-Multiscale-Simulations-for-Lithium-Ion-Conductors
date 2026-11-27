@@ -1,0 +1,5 @@
+mobile_ion,feature,n_paths,n_framework_groups,spearman_rho,nominal_p,interpretation,source_dataset_doi,source_url
+Li,hop_length_A,38,11,0.36360652150125833,0.02483405808755039,descriptive only; paths share frameworks/papers,10.1038/s41597-025-06196-x,https://github.com/sai-mat-group/migration-barrier-dataset
+Li,mobile_ion_number_density_cm3,38,11,0.14286589638528296,0.39218212417668585,descriptive only; paths share frameworks/papers,10.1038/s41597-025-06196-x,https://github.com/sai-mat-group/migration-barrier-dataset
+Na,hop_length_A,33,8,0.15124926935066696,0.4007915736065749,descriptive only; paths share frameworks/papers,10.1038/s41597-025-06196-x,https://github.com/sai-mat-group/migration-barrier-dataset
+Na,mobile_ion_number_density_cm3,33,8,0.22850074005288448,0.20088845951681533,descriptive only; paths share frameworks/papers,10.1038/s41597-025-06196-x,https://github.com/sai-mat-group/migration-barrier-dataset
