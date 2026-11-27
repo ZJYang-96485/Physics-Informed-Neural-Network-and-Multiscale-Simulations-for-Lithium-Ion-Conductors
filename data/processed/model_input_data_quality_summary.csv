@@ -1,0 +1,12 @@
+source,metric,count,denominator,interpretation
+LiTraj_BVEL13k,structure_rows,12807,12807,Distinct structure IDs; computed barrier task
+LiTraj_BVEL13k,complete_barrier_triplets,12807,12807,All 1D/2D/3D targets present
+LiTraj_BVEL13k,nonnegative_ordered_triplets,12807,12807,Physical output-head ordering holds in source index
+LiTraj_BVEL13k,E3D_above_5_eV,1340,12807,Extreme proxy target; robust-loss ablation required
+LiTraj_BVEL13k,E3D_above_10_eV,160,12807,Inspect proxy tail before fitting
+LiTraj_BVEL13k,author_test_rows_in_train_chemsys,1226,1317,Author split is not a chemical-family holdout
+Materials_Project_review,full_structure_rows,115,115,Cached full MP structure available
+Materials_Project_review,complete_neural_inputs,110,115,Can run numerical conductivity inference
+Materials_Project_review,ordered_structures,115,115,Representation shift from OBELiX
+Materials_Project_review,hull_at_or_below_25_meV_atom,102,115,Zero-K thermodynamic plausibility only
+Materials_Project_review,outside_training_descriptor_range,5,110,Among records with numerical predictions

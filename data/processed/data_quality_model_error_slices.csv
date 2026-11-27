@@ -1,0 +1,7 @@
+slice,value,records,connected_families,record_MAE_dex,family_balanced_MAE_dex
+cif_is_ordered,False,126,41,1.2947183380406204,1.6046827023944081
+cif_is_ordered,True,33,30,3.100153786128879,2.6421280505089664
+source_note_review_flag,False,147,63,1.4623263548281007,1.8168036331349007
+source_note_review_flag,True,12,10,4.2064676146367,3.0043275788937427
+repeated_nominal_phase,False,133,67,1.80239422923427,2.0823881820032737
+repeated_nominal_phase,True,26,7,0.9892751172005082,0.8498692340153626

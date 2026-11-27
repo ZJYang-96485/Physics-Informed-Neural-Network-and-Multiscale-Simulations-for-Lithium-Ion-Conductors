@@ -1,0 +1,14 @@
+metric,count,interpretation
+inventory_rows,906,All sources; not all model-ready
+OBELiX_training_labels,449,Official training split only
+verified_structure_training_pairs,159,Direct-source CIF and metadata validation
+composition_only_OBELiX_training_rows,290,No verified direct-source structure for the current graph task
+external_provisional_rows,457,Original-paper and phase review pending
+external_original_paper_identifier_resolved,169,Caltech DOI; Laskowski citation numbers await DOI resolution
+measurement_method_recorded,0,Not present in the current normalized tables
+measurement_uncertainty_recorded,0,Not present in the current normalized tables
+repeated_nominal_OBELiX_training_groups,45,"Same formula and space group, phase/processing still to verify"
+repeated_nominal_groups_over_1dex,16,Review original papers before treating values as conflicting
+repeated_nominal_groups_over_2dex,6,Review original papers before treating values as conflicting
+OBELiX_training_source_note_review_rows,44,Unresolved-looking source note; verify before exclusion
+structured_training_partial_occupancy_rows,126,Do not round site occupancies
