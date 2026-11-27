@@ -1,0 +1,7 @@
+source,published_rows,inventory_rows,structure_pairs,independent_source_groups,status
+OBELiX official training,599,449,159,110,training_labels
+CaltechDATA,571,169,0,88,provisional_source_reported_RT
+Laskowski supplement,1346,288,0,68,provisional_PDF_extraction
+Shon-Min text mining,4924,0,0,0,excluded_temperature_and_formula_uncertainty
+Liverpool Ionics,820,0,0,0,not_retrieved_overlap_and_multitemperature
+DDSE,2448,0,0,0,conductivity_data_on_request
