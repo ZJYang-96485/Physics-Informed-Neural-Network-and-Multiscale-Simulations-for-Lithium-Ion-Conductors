@@ -1,0 +1,3 @@
+scheme,model,record_MAE_dex,equal_family_MAE_dex,fast_in_top_10,family_average_precision,baseline_family_MAE_dex,baseline_fast_in_top_10
+chemical_component,density_separated_plus_path,1.6911123159937558,2.0302729800866035,6,0.47054337105727984,2.0328318983755413,4
+linked_family,density_separated_plus_path,1.5488835822320894,1.861044688291169,6,0.5026078378245561,2.0736408532236528,7
