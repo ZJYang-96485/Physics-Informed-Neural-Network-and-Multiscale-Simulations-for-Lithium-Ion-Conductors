@@ -1,0 +1,10 @@
+mp_fields,role,reason,condition
+formula_pretty; elements,model_input,"composition fractions, Li and anion identity",available; common with OBELiX
+structure species; occupancies; coordinates; lattice,model_input_after_phase_check,periodic geometry and disorder,fetch verified MP structures; compare with OBELiX CIFs
+volume_A3; density_g_cm3,derived_model_input,normalized volume and density,recompute from matched structures
+space_group_number; crystal_system,optional_ablation,symmetry proxy,verify experimental/relaxed agreement
+band_gap_eV; is_metal,feasibility_gate,electronic insulation proxy,computed; not a conductivity label
+energy_above_hull_eV_atom; is_stable,feasibility_gate,thermodynamic plausibility,0 K proxy; not synthesis proof
+theoretical,evidence_flag,experimental structure index,confirm source synthesis paper
+formation_energy_eV_atom,context_only,thermodynamic context,not available for all OBELiX training phases
+material_id; chemsys; deprecated,identifier_or_gate,"traceability, family, lifecycle",do not feed IDs into model
