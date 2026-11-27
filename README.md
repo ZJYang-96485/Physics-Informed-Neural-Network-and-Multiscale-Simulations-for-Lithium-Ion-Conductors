@@ -73,6 +73,8 @@ The neural network is therefore a screening and hypothesis-generation tool, not 
 - `data/processed/mp_obelix_formula_search_metadata.csv` — Materials Project phases returned by the wider formula query without screening filters.
 - `data/processed/obelix_mp_wide_match_{pairs,summary}.csv` — geometric comparisons and one status per OBELiX record from that wider query.
 - `data/processed/obelix_occupancy_sensitivity.csv` — changes in composition, Li content, and atom count under two diagnostic site-occupancy thresholds.
+- `data/processed/obelix_chgnet_frozen_features.csv` — 64-dimensional pretrained CHGNet features for 41 ordered direct-source experimental CIFs, with source hashes and model version.
+- `data/processed/obelix_chgnet_pilot_{cv,test}.csv` — connected-group model selection and predictions on the same official held-out records for both neural heads.
 - `data/processed/mp_li_solid_electrolyte_candidates.csv` — 5,068 Materials Project entries passing the broad stability, band-gap, and composition prescreen.
 - `data/processed/mp_li_solid_electrolyte_domain_audit.csv` — candidate applicability flags; it intentionally contains no conductivity predictions.
 - `figures/figure_01_physics_informed_conductivity_model.png` — project architecture figure using the UIUC brand palette.
@@ -81,6 +83,7 @@ The neural network is therefore a screening and hypothesis-generation tool, not 
 - `figures/figure_04_obelix_structure_manifest.png` — structure provenance, metadata validation, and partial-occupancy audit.
 - `figures/figure_05_obelix_mp_structure_matching.png` — first-pass structure matching counts in the UIUC palette.
 - `figures/figure_06_mp_wide_and_occupancy.png` — wider matching yield and occupancy sensitivity in the UIUC palette.
+- `figures/figure_07_frozen_chgnet_pilot.png` — same-cohort neural comparison on the ordered experimental CIFs.
 
 The notebook retains the Materials Project setup for candidate crystal structures and structural descriptors. Because the existing local insertion-electrode cache does not contain ionic-conductivity labels, a separate conductivity table is required before training.
 
@@ -107,7 +110,11 @@ The selected 32-unit MLP reaches 1.66 dex MAE on the official held-out test set,
 
 All 321 public CIFs parse successfully, 288 pass the conservative composition-and-symmetry metadata audit, and 249 contain partial or mixed occupancies requiring an explicit representation decision. Only 41 exact-label records are currently direct-source, metadata-validated, and already ordered. The first pass against the **screened** Materials Project pool found 31 ordered direct-source geometric matches. A wider formula query without the screening filters raises that count to 35, but remains limited to exact formula queries.
 
-For 161 audited, disordered direct-source records, changing the occupancy threshold from 0.50 to 0.70 changes the resolved representation for 100 records. Median normalized composition drift is 0.19 and 0.33, respectively; the policies even remove every Li site for 52 and 83 records. These diagnostics rule out simple threshold rounding as universal CHGNet preprocessing. The next step is a controlled frozen-CHGNet comparison on the ordered direct-source cohort, followed by physically justified treatment of disorder.
+For 161 audited, disordered direct-source records, changing the occupancy threshold from 0.50 to 0.70 changes the resolved representation for 100 records. Median normalized composition drift is 0.19 and 0.33, respectively; the policies even remove every Li site for 52 and 83 records. These diagnostics rule out simple threshold rounding as universal CHGNet preprocessing.
+
+The first frozen-CHGNet pilot uses the 41 ordered direct-source experimental CIFs (33 official training, 8 official test). On those same eight test records, a neural head on CHGNet features reaches 2.96 dex MAE, compared with 2.59 dex for the composition neural head and 3.54 dex for the training median. The structural representation does not improve this small-cohort comparison. The eight-record test is too small to support broad screening claims, so the Materials Project conductivity ranking remains closed. The next research step is to enlarge the trustworthy structure-labeled cohort or develop a validated treatment of disorder before revisiting graph features.
+
+The notebook uses `chgnet==0.4.2` and its pretrained `0.3.0` checkpoint for this pilot. Install the package in the notebook's environment with `python -m pip install chgnet==0.4.2`; the saved feature CSV allows cache-first reruns when package and CIF hashes match.
 
 ## Scope and limitations
 
