@@ -1,0 +1,183 @@
+{
+  "@context": "https://w3id.org/ro/crate/1.1/context",
+  "@graph": [
+    {
+      "@id": "https://zenodo.org/records/15537281/files/ro-crate-metadata.json",
+      "@type": "CreativeWork",
+      "conformsTo": {
+        "@id": "https://w3id.org/ro/crate/1.1"
+      },
+      "dateCreated": "2025-05-28T15:13:18.035791+00:00",
+      "sdPublisher": {
+        "@id": "https://kadi.iam.kit.edu"
+      },
+      "version": "1.7.0"
+    },
+    {
+      "@id": "https://kadi.iam.kit.edu",
+      "@type": "Organization",
+      "description": "A generic and open source virtual research environment.",
+      "name": "Kadi4Mat",
+      "url": "https://kadi.iam.kit.edu"
+    },
+    {
+      "@id": "https://kadi-dlr.hiu-batteries.de/records/9371#description",
+      "@type": "Text",
+      "encodingFormat": "text/markdown",
+      "text": "# Scope\nThis record contains electrochemical impedance spectroscopy (EIS) measurements of the NMC cathode from an LG CHEM INR18650-MJ1 lithium-ion cell, structured for machine-readable applications. The dataset includes Parquet files with harmonized tabular impedance data, suitable for computational pipelines, and optionally linked data in JSON-LD format for semantic annotation. These measurements were recorded at 25°C and cover both charge and discharge sequences over the full SOC range.\n\n# Files\n## Data\n| Filename                                           | Description                                                             | Format               | Usage                                                             |\n|----------------------------------------------------|-------------------------------------------------------------------------|------------------------|-------------------------------------------------------------------|\n| 18650_LG_3500_MJ1_EIS_cathode_charge.parquet       | Structured impedance spectrum of NMC cathode at indicated SOC and 25°C. | application/parquet    | Use in data science pipelines or impedance modeling.             |\n| 18650_LG_3500_MJ1_EIS_cathode_discharge.parquet    | Structured impedance spectrum of NMC cathode at indicated SOC and 25°C. | application/parquet    | Use in data science pipelines or impedance modeling.             |\n\n## RDF Metadata\n| Filename                 | Description                                                          | Format             | Usage                                                                 |\n|--------------------------|----------------------------------------------------------------------|--------------------|----------------------------------------------------------------------|\n| metadata.jsonld|RDF metadata describing the data table schema, test, and battery | application/json+ld| Semantic Web integration|\n| metadata.html|RDF metadata describing the data table schema, test, and battery | application/json+ld| Semantic Web integration|\n\n# Licensing\nThis dataset is licensed under CC-BY 4.0, allowing for sharing and adaptation with proper attribution.\n\n# Contact Information\nFor questions or further assistance, please contact Dennis Kopljar at dennis.kopljar@dlr.de.\n\n# References\nThis dataset is linked to the following publication: [DOI/Link to publication]."
+    },
+    {
+      "@id": "https://creativecommons.org/licenses/by/4.0/",
+      "@type": "CreativeWork",
+      "identifier": "CC-BY-4.0",
+      "name": "Creative Commons Attribution 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    {
+      "@id": "https://zenodo.org/records/15537281",
+      "@type": "Dataset",
+      "dateCreated": "2025-02-04T12:39:06.703131+00:00",
+      "dateModified": "2025-05-28T15:06:52.028560+00:00",
+      "description": {
+        "@id": "https://kadi-dlr.hiu-batteries.de/records/9371#description"
+      },
+      "hasPart": [
+        {
+          "@id": "https://zenodo.org/records/15537281/files/18650_LG_3500_MJ1_EIS_cathode_charge_bode_phase_plot.png"
+        },
+        {
+          "@id": "https://zenodo.org/records/15537281/files/18650_LG_3500_MJ1_EIS_cathode_charge_bode_impedance_plot.png"
+        },
+        {
+          "@id": "https://zenodo.org/records/15537281/files/18650_LG_3500_MJ1_EIS_cathode_charge_nyquist_plot.png"
+        },
+        {
+          "@id": "https://zenodo.org/records/15537281/files/18650_LG_3500_MJ1_EIS_cathode_charge_plot.flow"
+        },
+        {
+          "@id": "https://zenodo.org/records/15537281/files/18650_LG_3500_MJ1_EIS_cathode_charge.parquet"
+        },
+        {
+          "@id": "https://zenodo.org/records/15537281/files/18650_LG_3500_MJ1_EIS_cathode_discharge_bode_phase_plot.png"
+        },
+        {
+          "@id": "https://zenodo.org/records/15537281/files/18650_LG_3500_MJ1_EIS_cathode_discharge_bode_impedance_plot.png"
+        },
+        {
+          "@id": "https://zenodo.org/records/15537281/files/18650_LG_3500_MJ1_EIS_cathode_discharge_nyquist_plot.png"
+        },
+        {
+          "@id": "https://zenodo.org/records/15537281/files/18650_LG_3500_MJ1_EIS_cathode_discharge_plot.flow"
+        },
+        {
+          "@id": "https://zenodo.org/records/15537281/files/18650_LG_3500_MJ1_EIS_cathode_discharge.parquet"
+        }
+      ],
+      "identifier": "18650-lg-3500-cathode-eis-structured-data",
+      "license": {
+        "@id": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "name": "18650-LG-3500 Cathode EIS structured data"
+    },
+    {
+      "@id": "https://zenodo.org/records/15537281/files/18650_LG_3500_MJ1_EIS_cathode_charge_bode_phase_plot.png",
+      "@type": "File",
+      "contentSize": "147937",
+      "dateCreated": "2025-02-04T13:34:01.957785+00:00",
+      "dateModified": "2025-02-04T13:34:02.006142+00:00",
+      "encodingFormat": "image/png",
+      "identifier": "615a17e2-fbb8-4ecc-9702-c64f067902df",
+      "name": "18650_LG_3500_MJ1_EIS_cathode_charge_bode_phase_plot.png"
+    },
+    {
+      "@id": "https://zenodo.org/records/15537281/files/18650_LG_3500_MJ1_EIS_cathode_charge_bode_impedance_plot.png",
+      "@type": "File",
+      "contentSize": "124944",
+      "dateCreated": "2025-02-04T13:34:01.748992+00:00",
+      "dateModified": "2025-02-04T13:34:01.786964+00:00",
+      "encodingFormat": "image/png",
+      "identifier": "b3eb88c4-2954-44ee-9fec-fcb283362c70",
+      "name": "18650_LG_3500_MJ1_EIS_cathode_charge_bode_impedance_plot.png"
+    },
+    {
+      "@id": "https://zenodo.org/records/15537281/files/18650_LG_3500_MJ1_EIS_cathode_charge_nyquist_plot.png",
+      "@type": "File",
+      "contentSize": "95502",
+      "dateCreated": "2025-02-04T13:34:01.463938+00:00",
+      "dateModified": "2025-02-04T13:34:01.533697+00:00",
+      "encodingFormat": "image/png",
+      "identifier": "0db9dd0a-cfe3-410f-b2e8-a93f959f845b",
+      "name": "18650_LG_3500_MJ1_EIS_cathode_charge_nyquist_plot.png"
+    },
+    {
+      "@id": "https://zenodo.org/records/15537281/files/18650_LG_3500_MJ1_EIS_cathode_charge_plot.flow",
+      "@type": "File",
+      "contentSize": "10732",
+      "dateCreated": "2025-02-04T13:33:14.809975+00:00",
+      "dateModified": "2025-02-04T13:33:14.860810+00:00",
+      "encodingFormat": "application/x-flow+json",
+      "identifier": "5b5f39a7-9b51-421a-ab8a-401e895719fe",
+      "name": "18650_LG_3500_MJ1_EIS_cathode_charge_plot.flow"
+    },
+    {
+      "@id": "https://zenodo.org/records/15537281/files/18650_LG_3500_MJ1_EIS_cathode_charge.parquet",
+      "@type": "File",
+      "contentSize": "147851",
+      "dateCreated": "2025-02-04T13:32:51.506116+00:00",
+      "dateModified": "2025-02-04T13:32:51.592539+00:00",
+      "encodingFormat": "application/octet-stream",
+      "identifier": "01503eb0-1da1-4041-9128-a6dc0c555275",
+      "name": "18650_LG_3500_MJ1_EIS_cathode_charge.parquet"
+    },
+    {
+      "@id": "https://zenodo.org/records/15537281/files/18650_LG_3500_MJ1_EIS_cathode_discharge_bode_phase_plot.png",
+      "@type": "File",
+      "contentSize": "134041",
+      "dateCreated": "2025-02-04T13:30:08.635280+00:00",
+      "dateModified": "2025-02-04T13:30:08.671853+00:00",
+      "encodingFormat": "image/png",
+      "identifier": "0a7f932d-a6dd-48fa-b6b2-578e004cd2f8",
+      "name": "18650_LG_3500_MJ1_EIS_cathode_discharge_bode_phase_plot.png"
+    },
+    {
+      "@id": "https://zenodo.org/records/15537281/files/18650_LG_3500_MJ1_EIS_cathode_discharge_bode_impedance_plot.png",
+      "@type": "File",
+      "contentSize": "136428",
+      "dateCreated": "2025-02-04T13:30:08.410448+00:00",
+      "dateModified": "2025-02-04T13:30:08.457090+00:00",
+      "encodingFormat": "image/png",
+      "identifier": "79fc7997-790e-4653-b009-df0cc124faec",
+      "name": "18650_LG_3500_MJ1_EIS_cathode_discharge_bode_impedance_plot.png"
+    },
+    {
+      "@id": "https://zenodo.org/records/15537281/files/18650_LG_3500_MJ1_EIS_cathode_discharge_nyquist_plot.png",
+      "@type": "File",
+      "contentSize": "100458",
+      "dateCreated": "2025-02-04T13:30:08.138692+00:00",
+      "dateModified": "2025-02-04T13:30:08.203427+00:00",
+      "encodingFormat": "image/png",
+      "identifier": "d22feb9b-7320-4615-bb5b-ac6a853743ee",
+      "name": "18650_LG_3500_MJ1_EIS_cathode_discharge_nyquist_plot.png"
+    },
+    {
+      "@id": "https://zenodo.org/records/15537281/files/18650_LG_3500_MJ1_EIS_cathode_discharge_plot.flow",
+      "@type": "File",
+      "contentSize": "10735",
+      "dateCreated": "2025-02-04T13:28:38.507541+00:00",
+      "dateModified": "2025-02-04T13:29:10.076227+00:00",
+      "encodingFormat": "application/x-flow+json",
+      "identifier": "e6918129-c213-455e-9fdd-fad87f567d3f",
+      "name": "18650_LG_3500_MJ1_EIS_cathode_discharge_plot.flow"
+    },
+    {
+      "@id": "https://zenodo.org/records/15537281/files/18650_LG_3500_MJ1_EIS_cathode_discharge.parquet",
+      "@type": "File",
+      "contentSize": "147851",
+      "dateCreated": "2025-02-04T13:28:19.690139+00:00",
+      "dateModified": "2025-02-04T13:28:19.745845+00:00",
+      "encodingFormat": "application/octet-stream",
+      "identifier": "332be769-7e7c-45f3-80f7-567344cc2ddc",
+      "name": "18650_LG_3500_MJ1_EIS_cathode_discharge.parquet"
+    }
+  ]
+}

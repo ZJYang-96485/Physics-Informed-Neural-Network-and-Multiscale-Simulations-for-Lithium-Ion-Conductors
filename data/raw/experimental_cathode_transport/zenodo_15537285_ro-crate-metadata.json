@@ -1,0 +1,143 @@
+{
+  "@context": "https://w3id.org/ro/crate/1.1/context",
+  "@graph": [
+    {
+      "@id": "https://zenodo.org/records/15537285/files/ro-crate-metadata.json",
+      "@type": "CreativeWork",
+      "conformsTo": {
+        "@id": "https://w3id.org/ro/crate/1.1"
+      },
+      "dateCreated": "2025-05-28T15:13:38.444583+00:00",
+      "sdPublisher": {
+        "@id": "https://kadi.iam.kit.edu"
+      },
+      "version": "1.7.0"
+    },
+    {
+      "@id": "https://kadi.iam.kit.edu",
+      "@type": "Organization",
+      "description": "A generic and open source virtual research environment.",
+      "name": "Kadi4Mat",
+      "url": "https://kadi.iam.kit.edu"
+    },
+    {
+      "@id": "https://kadi-dlr.hiu-batteries.de/records/5726#description",
+      "@type": "Text",
+      "encodingFormat": "text/markdown",
+      "text": "# Scope\n\nThis record contains electrochemical impedance spectra (EIS) measured during galvanostatic intermittent titration technique (GITT) steps on the NMC cathode of a commercial LG CHEM INR18650-MJ1 lithium-ion cell. The measurements were conducted at 25°C and are provided in a structured Parquet format, suitable for data analysis workflows and model fitting.\n\n## Files\n\n| Filename                                           | Description                                                                 | Format               | Usage                                                             |\n|----------------------------------------------------|-----------------------------------------------------------------------------|------------------------|-------------------------------------------------------------------|\n| 18650-LG-3500-MJ1-cathode-GITT-EIS-Ch.parquet      | Structured GITT-EIS spectrum of NMC cathode during charge at 25°C.         | application/parquet    | Use in data science pipelines or impedance modeling.             |\n| 18650-LG-3500-MJ1-cathode-GITT-EIS-Dc.parquet      | Structured GITT-EIS spectrum of NMC cathode during discharge at 25°C.      | application/parquet    | Use in data science pipelines or impedance modeling.             |\n\n## RDF Metadata\n| Filename                 | Description                                                          | Format             | Usage                                                                 |\n|--------------------------|----------------------------------------------------------------------|--------------------|----------------------------------------------------------------------|\n| metadata.jsonld|RDF metadata describing the data table schema, test, and battery | application/json+ld| Semantic Web integration|\n| metadata.html|RDF metadata describing the data table schema, test, and battery | application/json+ld| Semantic Web integration|\n\n# Licensing\nThis dataset is licensed under CC-BY 4.0, allowing for sharing and adaptation with proper attribution.\n\n# Contact Information\nFor questions or further assistance, please contact Dennis Kopljar at dennis.kopljar@dlr.de.\n\n# References\nThis dataset is linked to the following publication: [DOI/Link to publication].\n\n# Notes\nLegend for the dataset column names:\n - \"LINE\": # of the step in the measurement device script\n - \"COMM\": type of the step (Charge/Discharge/...); intermittent EIS measurements happen during \"Set-Temp\", since the measurement device links with the climate chamber\n - \"STATE\": labels start (3) and end (2) of any step"
+    },
+    {
+      "@id": "https://creativecommons.org/licenses/by/4.0/",
+      "@type": "CreativeWork",
+      "identifier": "CC-BY-4.0",
+      "name": "Creative Commons Attribution 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    {
+      "@id": "https://kadi-dlr.hiu-batteries.de/records/5726#extras-CalendarDate",
+      "@type": "PropertyValue",
+      "propertyID": "CalendarDate",
+      "value": "2021-xx-xx"
+    },
+    {
+      "@id": "https://zenodo.org/records/15537285",
+      "@type": "Dataset",
+      "dateCreated": "2024-08-16T14:48:01.339643+00:00",
+      "dateModified": "2025-05-28T15:09:40.272112+00:00",
+      "description": {
+        "@id": "https://kadi-dlr.hiu-batteries.de/records/5726#description"
+      },
+      "hasPart": [
+        {
+          "@id": "https://zenodo.org/records/15537285/files/18650-LG-3500-MJ1-cathode-GITT-EIS-Ch_plot.pdf"
+        },
+        {
+          "@id": "https://zenodo.org/records/15537285/files/18650-LG-3500-MJ1-cathode-GITT-EIS-Dc_plot.pdf"
+        },
+        {
+          "@id": "https://zenodo.org/records/15537285/files/18650-LG-3500-MJ1-cathode-GITT-EIS-Ch_plot.flow"
+        },
+        {
+          "@id": "https://zenodo.org/records/15537285/files/18650-LG-3500-MJ1-cathode-GITT-EIS-Dc_plot.flow"
+        },
+        {
+          "@id": "https://zenodo.org/records/15537285/files/18650-LG-3500-MJ1-cathode-GITT-EIS-Dc.parquet"
+        },
+        {
+          "@id": "https://zenodo.org/records/15537285/files/18650-LG-3500-MJ1-cathode-GITT-EIS-Ch.parquet"
+        }
+      ],
+      "identifier": "18650-lg-3500-mj1-cathode-gitteis-structured-1",
+      "keywords": "battery cell, dataset, eis, gitt",
+      "license": {
+        "@id": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "name": "18650-LG-3500-MJ1 Cathode GITT+EIS structured data (#001)",
+      "variableMeasured": [
+        {
+          "@id": "https://kadi-dlr.hiu-batteries.de/records/5726#extras-CalendarDate"
+        }
+      ]
+    },
+    {
+      "@id": "https://zenodo.org/records/15537285/files/18650-LG-3500-MJ1-cathode-GITT-EIS-Ch_plot.pdf",
+      "@type": "File",
+      "contentSize": "35159",
+      "dateCreated": "2024-08-16T21:41:57.744639+00:00",
+      "dateModified": "2024-08-16T21:41:57.796561+00:00",
+      "encodingFormat": "application/pdf",
+      "identifier": "ad9d486a-6773-418a-a5ad-4a698426c9bf",
+      "name": "18650-LG-3500-MJ1-cathode-GITT-EIS-Ch_plot.pdf"
+    },
+    {
+      "@id": "https://zenodo.org/records/15537285/files/18650-LG-3500-MJ1-cathode-GITT-EIS-Dc_plot.pdf",
+      "@type": "File",
+      "contentSize": "35465",
+      "dateCreated": "2024-08-16T21:41:57.601833+00:00",
+      "dateModified": "2024-08-16T21:41:57.645794+00:00",
+      "encodingFormat": "application/pdf",
+      "identifier": "440b6ded-f48b-4906-b95d-beaeda32c6c8",
+      "name": "18650-LG-3500-MJ1-cathode-GITT-EIS-Dc_plot.pdf"
+    },
+    {
+      "@id": "https://zenodo.org/records/15537285/files/18650-LG-3500-MJ1-cathode-GITT-EIS-Ch_plot.flow",
+      "@type": "File",
+      "contentSize": "9993",
+      "dateCreated": "2024-08-16T21:39:51.918798+00:00",
+      "dateModified": "2024-08-16T21:39:51.962622+00:00",
+      "encodingFormat": "application/x-flow+json",
+      "identifier": "52eb9167-6fd2-43e5-bad2-13f5785d6fe8",
+      "name": "18650-LG-3500-MJ1-cathode-GITT-EIS-Ch_plot.flow"
+    },
+    {
+      "@id": "https://zenodo.org/records/15537285/files/18650-LG-3500-MJ1-cathode-GITT-EIS-Dc_plot.flow",
+      "@type": "File",
+      "contentSize": "9993",
+      "dateCreated": "2024-08-16T21:39:25.732284+00:00",
+      "dateModified": "2024-08-16T21:39:25.782036+00:00",
+      "encodingFormat": "application/x-flow+json",
+      "identifier": "eb237fae-609a-4619-8de9-cba65c9f40ff",
+      "name": "18650-LG-3500-MJ1-cathode-GITT-EIS-Dc_plot.flow"
+    },
+    {
+      "@id": "https://zenodo.org/records/15537285/files/18650-LG-3500-MJ1-cathode-GITT-EIS-Dc.parquet",
+      "@type": "File",
+      "contentSize": "9394817",
+      "dateCreated": "2024-08-16T21:33:11.049467+00:00",
+      "dateModified": "2024-08-16T21:33:11.099499+00:00",
+      "encodingFormat": "application/octet-stream",
+      "identifier": "ff5da939-b30b-439e-a4f5-706b4477d918",
+      "name": "18650-LG-3500-MJ1-cathode-GITT-EIS-Dc.parquet"
+    },
+    {
+      "@id": "https://zenodo.org/records/15537285/files/18650-LG-3500-MJ1-cathode-GITT-EIS-Ch.parquet",
+      "@type": "File",
+      "contentSize": "9987573",
+      "dateCreated": "2024-08-16T21:25:58.232932+00:00",
+      "dateModified": "2024-08-16T21:25:58.288384+00:00",
+      "encodingFormat": "application/octet-stream",
+      "identifier": "465914be-ad40-46c0-8ce1-81399428d348",
+      "name": "18650-LG-3500-MJ1-cathode-GITT-EIS-Ch.parquet"
+    }
+  ]
+}

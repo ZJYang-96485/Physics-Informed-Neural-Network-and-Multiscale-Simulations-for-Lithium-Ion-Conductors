@@ -20,7 +20,7 @@ OBELIX:h8o,OBELiX,Li4.8Si0.2Al0.8S4,Li4.8Al0.8Si0.2S4,2.29e-07,-6.64016451766011
 OBELIX:pe2,OBELiX,Li17Sb13S28,Li17Sb13S28,1.05e-09,-8.978810700930062,10.1002/chem.201502052,linked_0015,curated_training_label,matched CIF,,,,True
 OBELIX:opo,OBELiX,Li0.6[Li0.2Sn0.8S2],Li0.8Sn0.8S2,0.00012,-3.9208187539523753,10.1039/c6ee00633g,linked_0016,curated_training_label,matched CIF,,,,True
 OBELIX:lkm,OBELiX,Li6Ge2O7,Li6Ge2O7,8.5e-07,-6.070581074285707,10.4028/www.scientific.net/msf.76.107,linked_0017,curated_training_label,matched CIF,,,,True
-OBELIX:bv2,OBELiX,LiYO2,LiYO2,1.8e-08,-7.744727494896693,10.1016/0167-2738(81)90021-7,linked_0027,curated_training_label,matched CIF,,,,True
+OBELIX:bv2,OBELiX,LiYO2,LiYO2,1.8e-08,-7.7447274948966935,10.1016/0167-2738(81)90021-7,linked_0027,curated_training_label,matched CIF,,,,True
 OBELIX:be9,OBELiX,LiGaBr4,LiGaBr4,7e-06,-5.154901959985743,10.1016/s0167-2738(00)00491-4,linked_0019,curated_training_label,matched CIF,,,,True
 OBELIX:n27,OBELiX,LiBO2,LiBO2,1e-08,-8.0,10.1140/epjst/e2008-00753-4,linked_0020,curated_training_label,matched CIF,,,,True
 OBELIX:goi,OBELiX,LiClC3H7NO,LiH7C3NClO,0.00016,-3.795880017344075,10.1021/acs.chemmater.5b00940,linked_0021,curated_training_label,matched CIF,,,,True
@@ -37,7 +37,7 @@ OBELIX:kfp,OBELiX,Li2BaP2O7,BaLi2P2O7,1.59881e-17,-16.796203144042632,10.1007/s1
 OBELIX:qy4,OBELiX,Li3Na5(TiS4)2,Na5Li3(TiS4)2,8.8e-06,-5.055517327849832,10.1016/j.jssc.2008.01.023,linked_0030,curated_training_label,matched CIF,,,,True
 OBELIX:9wf,OBELiX,Li3ErI6,Li3ErI6,0.00065,-3.1870866433571443,10.1021/acsaem.0c00147,linked_0032,curated_training_label,matched CIF,,,,True
 OBELIX:dmq,OBELiX,Li3AlS3,Li3AlS3,1.31e-08,-7.882728704344236,10.1021/acs.chemmater.9b03230,linked_0033,curated_training_label,matched CIF,,,,True
-OBELIX:uox,OBELiX,Li3.7Zn0.7Ga0.3(PO4)2,Li3.7Zn0.7Ga0.3P2O8,5.65e-12,-11.24795155218056,10.1021/acs.chemmater.7b05139,linked_0034,curated_training_label,matched CIF,,,,True
+OBELIX:uox,OBELiX,Li3.7Zn0.7Ga0.3(PO4)2,Li3.7Zn0.7Ga0.3P2O8,5.65e-12,-11.247951552180561,10.1021/acs.chemmater.7b05139,linked_0034,curated_training_label,matched CIF,,,,True
 OBELIX:joc,OBELiX,Li3PS4,Li3PS4,2.6e-07,-6.585026652029182,10.1021/ja3110895,linked_0045,curated_training_label,matched CIF,,,,True
 OBELIX:mq1,OBELiX,Li3SbS4,Li3SbS4,4.8e-09,-8.318758762624412,10.1016/j.ssi.2019.01.017,linked_0035,curated_training_label,matched CIF,,,,True
 OBELIX:ssv,OBELiX,Li3P0.2V0.8O4,Li3V0.8P0.2O4,1.31e-13,-12.882728704344236,10.1021/acs.chemmater.8b01504,linked_0056,curated_training_label,no CIF,,,,True
@@ -53,7 +53,7 @@ OBELIX:5tl,OBELiX,La0.62Li0.14TiO3,Li0.14La0.62Ti1O3,0.000442,-3.354577730650908
 OBELIX:u2y,OBELiX,La0.595Li0.215TiO3,Li0.215La0.595Ti1O3,0.000853,-3.0690509688324767,10.1016/s0167-2738(00)00761-x,linked_0064,curated_training_label,matched CIF,,,,True
 OBELIX:kxh,OBELiX,Pr0.56Li0.34TiO3.01,Li0.34Pr0.56Ti1O3.01,1e-06,-6.0,10.1016/0167-2738(94)90310-7,linked_0052,curated_training_label,no CIF,,,,True
 OBELIX:3we,OBELiX,Nd0.55Li0.34TiO3,Li0.34Nd0.55Ti1O3,8e-08,-7.096910013008056,10.1016/0167-2738(94)90310-7,linked_0052,curated_training_label,no CIF,,,,True
-OBELIX:5z0,OBELiX,Li5AlO4,Li5AlO4,5e-10,-9.30102999566398,10.1016/0025-5408(76)90169-0,linked_0043,curated_training_label,close-match CIF,,,,True
+OBELIX:5z0,OBELiX,Li5AlO4,Li5AlO4,5e-10,-9.301029995663981,10.1016/0025-5408(76)90169-0,linked_0043,curated_training_label,close-match CIF,,,,True
 OBELIX:472,OBELiX,Li14Nd5(Si11N19O5)O2F2,Li14Nd5Si11N19O7F2,1.7e-10,-9.769551078621726,10.1021/ja302255d,linked_0042,curated_training_label,matched CIF,,,,True
 OBELIX:9zk,OBELiX,Li5GaO4,Li5GaO4,5e-09,-8.301029995663981,10.1016/0025-5408(76)90169-0,linked_0043,curated_training_label,matched CIF,,,,True
 OBELIX:dnt,OBELiX,Li2CrTi(PO4)3,Li2TiCr(PO4)3,4.41e-07,-6.355561410532162,10.1016/s0167-2738(96)00565-6,linked_0044,curated_training_label,no CIF,,,,True
@@ -84,17 +84,17 @@ OBELIX:efb,OBELiX,Li3.6Ge0.6P0.4O4,Li3.6Ge0.6P0.4O4,1.1e-05,-4.958607314841775,1
 OBELIX:lcm,OBELiX,Li3.6Ge0.6V0.4O4,Li3.6V0.4Ge0.6O4,3.19e-05,-4.496209316942819,10.1021/acs.chemmater.8b01504,linked_0056,curated_training_label,no CIF,,,,True
 OBELIX:mgs,OBELiX,Li3.8Ge0.8P0.2O4,Li3.8Ge0.8P0.2O4,1.03e-06,-5.987162775294828,10.1021/acs.chemmater.8b01504,linked_0056,curated_training_label,no CIF,,,,True
 OBELIX:31s,OBELiX,Li3.8Ge0.8V0.2O4,Li3.8V0.2Ge0.8O4,2.71e-06,-5.567030709125595,10.1021/acs.chemmater.8b01504,linked_0056,curated_training_label,no CIF,,,,True
-OBELIX:dku,OBELiX,Li3P0.4V0.6O4,Li3V0.6P0.4O4,3.55e-13,-12.449771646944908,10.1021/acs.chemmater.8b01504,linked_0056,curated_training_label,no CIF,,,,True
+OBELIX:dku,OBELiX,Li3P0.4V0.6O4,Li3V0.6P0.4O4,3.55e-13,-12.449771646944907,10.1021/acs.chemmater.8b01504,linked_0056,curated_training_label,no CIF,,,,True
 OBELIX:ndx,OBELiX,Li3P0.6V0.4O4,Li3V0.4P0.6O4,3.2e-13,-12.494850021680094,10.1021/acs.chemmater.8b01504,linked_0056,curated_training_label,no CIF,,,,True
 OBELIX:m0j,OBELiX,Li3P0.8V0.2O4,Li3V0.2P0.8O4,2.05e-13,-12.688246138944246,10.1021/acs.chemmater.8b01504,linked_0056,curated_training_label,no CIF,,,,True
 OBELIX:9lo,OBELiX,Li3PO4,Li3PO4,1.75e-13,-12.756961951313706,10.1021/acs.chemmater.8b01504,linked_0056,curated_training_label,close-match CIF,,,,True
-OBELIX:dth,OBELiX,Li4GeO4,Li4GeO4,1.3e-12,-11.886056647693165,10.1021/acs.chemmater.8b01504,linked_0056,curated_training_label,close-match CIF,,,,True
+OBELIX:dth,OBELiX,Li4GeO4,Li4GeO4,1.3e-12,-11.886056647693163,10.1021/acs.chemmater.8b01504,linked_0056,curated_training_label,close-match CIF,,,,True
 OBELIX:45e,OBELiX,Li2MgBr4,Li2MgBr4,7.8e-10,-9.10790539730952,10.1002/chin.198639014|10.1149/1.2108704,linked_0057,curated_training_label,no CIF,,,,True
 OBELIX:x2i,OBELiX,LiBiO2,LiBiO2,3.8e-08,-7.42021640338319,10.1016/j.ssi.2015.10.016,linked_0067,curated_training_label,close-match CIF,,,,True
 OBELIX:xz4,OBELiX,(Li0.5Ce0.5)(MoO4),Li0.5Ce0.5Mo1O4,1.3e-08,-7.886056647693163,10.1007/s12039-011-0068-5,linked_0060,curated_training_label,matched CIF,,,,True
 OBELIX:hja,OBELiX,(Li0.5Ce0.25Pr0.25)(MoO4),Li0.5Ce0.25Pr0.25Mo1O4,1e-09,-9.0,10.1007/s12039-011-0068-5,linked_0060,curated_training_label,matched CIF,,,,True
 OBELIX:3nb,OBELiX,(Li0.5Ce0.25Sm0.25)(MoO4),Li0.5Ce0.25Sm0.25Mo1O4,1.8e-10,-9.744727494896694,10.1007/s12039-011-0068-5,linked_0060,curated_training_label,matched CIF,,,,True
-OBELIX:qa9,OBELiX,Li3BN2,Li3BN2,1.6e-10,-9.795880017344077,10.1016/0022-4596(87)90135-6,linked_0061,curated_training_label,matched CIF,,,,True
+OBELIX:qa9,OBELiX,Li3BN2,Li3BN2,1.6e-10,-9.795880017344075,10.1016/0022-4596(87)90135-6,linked_0061,curated_training_label,matched CIF,,,,True
 OBELIX:ihb,OBELiX,Li0.33La0.56Ti0.99Al0.01O2.99F0.01,Li0.33La0.56Ti0.99Al0.01O2.99F0.01,0.00098,-3.0087739243075053,10.1007/s11581-006-0011-9,linked_0062,curated_training_label,no CIF,,,,True
 OBELIX:3k7,OBELiX,Li0.33La0.56Ti0.98Al0.02O2.98F0.02,Li0.33La0.56Ti0.98Al0.02O2.98F0.02,0.00106,-2.9746941347352296,10.1007/s11581-006-0011-9,linked_0062,curated_training_label,no CIF,,,,True
 OBELIX:1sz,OBELiX,Li0.33La0.56Ti0.97Al0.03O2.97F0.03,Li0.33La0.56Ti0.97Al0.03O2.97F0.03,0.000928,-3.032452023781138,10.1007/s11581-006-0011-9,linked_0062,curated_training_label,no CIF,,,,True
@@ -110,8 +110,8 @@ OBELIX:sib,OBELiX,La0.63Li0.11(Mg0.5W0.5)O3,Li0.11La0.63Mg0.5W0.5O3,6.8e-06,-5.1
 OBELIX:r99,OBELiX,La0.62 Li0.14(Mg0.5W0.5)O3,Li0.14La0.62Mg0.5W0.5O3,1.2e-05,-4.920818753952375,10.1016/j.ssi.2004.05.010,linked_0065,curated_training_label,matched CIF,,,,True
 OBELIX:lol,OBELiX,Li4PS4I,Li4PS4I,0.00012,-3.9208187539523753,10.1021/acs.chemmater.7b00013,linked_0066,curated_training_label,matched CIF,,,,True
 OBELIX:d7f,OBELiX,Li3BiO4,Li3BiO4,4.1e-10,-9.387216143280265,10.1016/j.ssi.2015.10.016,linked_0067,curated_training_label,close-match CIF,,,,True
-OBELIX:52b,OBELiX,Li10.05Ge1.05P1.95S12,Li10.05Ge1.05P1.95S12,0.0122,-1.913640169325252,10.1039/c4ta05231e,linked_0150,curated_training_label,no CIF,,,,True
-OBELIX:8po,OBELiX,Li10.2Ge1.2P1.8S12,Li10.2Ge1.2P1.8S12,0.0132,-1.8794260687941504,10.1039/c4ta05231e,linked_0150,curated_training_label,no CIF,,,,True
+OBELIX:52b,OBELiX,Li10.05Ge1.05P1.95S12,Li10.05Ge1.05P1.95S12,0.0122,-1.9136401693252518,10.1039/c4ta05231e,linked_0150,curated_training_label,no CIF,,,,True
+OBELIX:8po,OBELiX,Li10.2Ge1.2P1.8S12,Li10.2Ge1.2P1.8S12,0.0132,-1.8794260687941502,10.1039/c4ta05231e,linked_0150,curated_training_label,no CIF,,,,True
 OBELIX:ya8,OBELiX,Li10.5Ge1.5P1.5S12,Li10.5Ge1.5P1.5S12,0.011,-1.958607314841775,10.1039/c4ta05231e,linked_0150,curated_training_label,no CIF,,,,True
 OBELIX:j8q,OBELiX,Li10GeP2S12,Li10Ge(PS6)2,0.0121,-1.91721462968355,10.1039/c4ta05231e|10.1021/acs.chemmater.7b00886,linked_0150,curated_training_label,close-match CIF,,,,True
 OBELIX:824,OBELiX,Li10.35Ge1.35P1.65S12,Li10.35Ge1.35P1.65S12,0.0144,-1.8416375079047504,10.1039/c4ta05231e,linked_0150,curated_training_label,matched CIF,,,,True
@@ -120,7 +120,7 @@ OBELIX:izs,OBELiX,Li3.475Si0.475P0.525S4,Li3.475Si0.475P0.525S4,0.00527,-2.27818
 OBELIX:8nc,OBELiX,Li3.425Si0.425P0.575S4,Li3.425Si0.425P0.575S4,0.00565,-2.2479515521805613,10.1039/c4fd00143e,linked_0068,curated_training_label,no CIF,,,,True
 OBELIX:3sx,OBELiX,Li3.4Si0.4P0.6S4,Li3.4Si0.4P0.6S4,0.00421,-2.3757179041643317,10.1039/c4fd00143e,linked_0068,curated_training_label,no CIF,,,,True
 OBELIX:xga,OBELiX,Li3.335Sn0.33P0.67S4,Li3.335Sn0.33P0.67S4,0.00373,-2.4282911681913126,10.1039/c4fd00143e,linked_0068,curated_training_label,no CIF,,,,True
-OBELIX:xn9,OBELiX,Li3.3Sn0.3P0.7S4,Li3.3Sn0.3P0.7S4,0.00365,-2.437707135543526,10.1039/c4fd00143e,linked_0068,curated_training_label,no CIF,,,,True
+OBELIX:xn9,OBELiX,Li3.3Sn0.3P0.7S4,Li3.3Sn0.3P0.7S4,0.00365,-2.4377071355435254,10.1039/c4fd00143e,linked_0068,curated_training_label,no CIF,,,,True
 OBELIX:sg4,OBELiX,Li3.285Sn0.28P0.72S4,Li3.285Sn0.28P0.72S4,0.00436,-2.360513510731414,10.1039/c4fd00143e,linked_0068,curated_training_label,no CIF,,,,True
 OBELIX:ns3,OBELiX,Li3.27Sn0.27P0.73S4,Li3.27Sn0.27P0.73S4,0.00496,-2.3045183235098023,10.1039/c4fd00143e,linked_0068,curated_training_label,no CIF,,,,True
 OBELIX:g8j,OBELiX,Li3.26Sn0.26P0.74S4,Li3.26Sn0.26P0.74S4,0.00453,-2.343901797987168,10.1039/c4fd00143e,linked_0068,curated_training_label,no CIF,,,,True
@@ -144,14 +144,14 @@ OBELIX:f0h,OBELiX,Li9.2Ba0.4GeP2S12,Ba0.4Li9.2Ge1P2S12,0.000316,-3.5003129173815
 OBELIX:7iw,OBELiX,Li9Ba0.5GeP2S12,Ba0.5Li9Ge1P2S12,9.98e-05,-4.000869458712629,10.1016/j.ssi.2017.01.014,linked_0150,curated_training_label,no CIF,,,,True
 OBELIX:ikh,OBELiX,Li9.6P3S12,Li9.6P3S12,0.0012,-2.9208187539523753,10.1038/nenergy.2016.30,linked_0071,curated_training_label,no CIF,,,,True
 OBELIX:hd3,OBELiX,Li7GePS8,Li7GePS8,0.007,-2.154901959985743,10.1039/c3ee41728j,linked_0070,curated_training_label,no CIF,,,,True
-OBELIX:ete,OBELiX,Li9.54Si1.74P1.44S11.7Cl0.3,Li9.54Si1.74P1.44S11.7Cl0.3,0.025,-1.6020599913279625,10.1038/nenergy.2016.30,linked_0071,curated_training_label,no CIF,,,,True
+OBELIX:ete,OBELiX,Li9.54Si1.74P1.44S11.7Cl0.3,Li9.54Si1.74P1.44S11.7Cl0.3,0.025,-1.6020599913279623,10.1038/nenergy.2016.30,linked_0071,curated_training_label,no CIF,,,,True
 OBELIX:k4x,OBELiX,Li10.35Si1.35P1.65S12,Li10.35Si1.35P1.65S12,0.0065,-2.1870866433571443,10.1107/s2052520615022283,linked_0072,curated_training_label,matched CIF,,,,True
 OBELIX:wyu,OBELiX,Li7La3Zr2O12,Li7La3Zr2O12,1.63e-06,-5.787812395596042,10.1016/j.jssc.2009.05.020,linked_0074,curated_training_label,matched CIF,,,,True
 OBELIX:019,OBELiX,LiTi2(PO4)3,LiTi2(PO4)3,0.000161,-3.7931741239681505,10.1021/ic400577v,linked_0075,curated_training_label,matched CIF,,,,True
 OBELIX:yqu,OBELiX,Li1.2Ti1.8Al0.2(PO4)3,Li1.2Ti1.8Al0.2P3O12,0.00482,-2.3169529617611504,10.1021/ic400577v,linked_0075,curated_training_label,matched CIF,,,,True
 OBELIX:95j,OBELiX,Li3AlH6,Li3AlH6,1.4e-07,-6.853871964321762,10.1063/1.3356981,linked_0076,curated_training_label,matched CIF,,,,True
 OBELIX:0iv,OBELiX,Li4P2S6,Li2PS3,2.38e-07,-6.623423042943488,10.1016/j.ssi.2015.10.015,linked_0078,curated_training_label,close-match CIF,,,,True
-OBELIX:2ro,OBELiX,Li4P2S6,Li2PS3,1.6e-10,-9.795880017344077,10.1021/acs.chemmater.6b04175,linked_0078,curated_training_label,no CIF,,,,True
+OBELIX:2ro,OBELiX,Li4P2S6,Li2PS3,1.6e-10,-9.795880017344075,10.1021/acs.chemmater.6b04175,linked_0078,curated_training_label,no CIF,,,,True
 OBELIX:deu,OBELiX,Li4.4Al0.4Ge0.6S4,Li4.4Al0.4Ge0.6S4,4.3e-05,-4.366531544420414,10.1021/acs.chemmater.8b03175,linked_0080,curated_training_label,matched CIF,,,,True
 OBELIX:usu,OBELiX,Li4.4Al0.4Sn0.6S4,Li4.4Al0.4Sn0.6S4,4.3e-06,-5.366531544420414,10.1021/acs.chemmater.8b03175,linked_0080,curated_training_label,matched CIF,,,,True
 OBELIX:ur9,OBELiX,LiZr2(PO4)3,LiZr2(PO4)3,1e-09,-9.0,10.1016/0025-5408(86)90194-7,linked_0081,curated_training_label,matched CIF,,,,True
@@ -164,21 +164,21 @@ OBELIX:0fh,OBELiX,Li1.2Al0.2Ge1.8(PO4)3,Li1.2Al0.2Ge1.8P3O12,4.83e-05,-4.3160528
 OBELIX:gw2,OBELiX,Li1.4Al0.4Ge1.6(PO4)3,Li1.4Al0.4Ge1.6P3O12,0.000188,-3.72584215073632,10.1021/acsami.8b00842,linked_0088,curated_training_label,matched CIF,,,,True
 OBELIX:1xf,OBELiX,Li1.5Al0.5Ge1.5(PO4)3,Li1.5Al0.5Ge1.5P3O12,0.000336,-3.473660722610156,10.1021/acsami.8b00842,linked_0088,curated_training_label,matched CIF,,,,True
 OBELIX:tjh,OBELiX,Li1.7Al0.7Ge1.3(PO4)3,Li1.7Al0.7Ge1.3P3O12,0.000264,-3.5783960731301687,10.1021/acsami.8b00842,linked_0088,curated_training_label,matched CIF,,,,True
-OBELIX:8fn,OBELiX,Li1.8Al0.8Ge1.2(PO4)3,Li1.8Al0.8Ge1.2P3O12,0.000137,-3.8632794328435938,10.1021/acsami.8b00842,linked_0088,curated_training_label,matched CIF,,,,True
+OBELIX:8fn,OBELiX,Li1.8Al0.8Ge1.2(PO4)3,Li1.8Al0.8Ge1.2P3O12,0.000137,-3.8632794328435933,10.1021/acsami.8b00842,linked_0088,curated_training_label,matched CIF,,,,True
 OBELIX:mdj,OBELiX,Li1.2Ti2Si0.2P2.8O12,Li1.2Ti2Si0.2P2.8O12,8.6e-05,-4.0655015487564325,10.1149/1.2086597,linked_0088,curated_training_label,no CIF,,,,True
 OBELIX:t1l,OBELiX,Li1.3Ti2Si0.3P2.7O12,Li1.3Ti2Si0.3P2.7O12,0.00032,-3.494850021680094,10.1149/1.2086597,linked_0088,curated_training_label,no CIF,,,,True
 OBELIX:my9,OBELiX,Li1.2Al0.2Ti1.8(PO4)3,Li1.2Ti1.8Al0.2P3O12,0.000595,-3.2254830342714502,10.1149/1.2086597,linked_0088,curated_training_label,close-match CIF,,,,True
 OBELIX:9s4,OBELiX,Li1.3Al0.3Ti1.7(PO4)3,Li1.3Ti1.7Al0.3P3O12,0.000722,-3.141462802430361,10.1149/1.2086597,linked_0088,curated_training_label,close-match CIF,,,,True
 OBELIX:iqt,OBELiX,Li1.4Al0.4Ti1.6(PO4)3,Li1.4Ti1.6Al0.4P3O12,0.000388,-3.4111682744057927,10.1149/1.2086597,linked_0088,curated_training_label,close-match CIF,,,,True
-OBELIX:xa0,OBELiX,Li1.5Al0.5Ti1.5(PO4)3,Li1.5Ti1.5Al0.5P3O12,0.000248,-3.605548319173784,10.1149/1.2086597,linked_0088,curated_training_label,close-match CIF,,,,True
+OBELIX:xa0,OBELiX,Li1.5Al0.5Ti1.5(PO4)3,Li1.5Ti1.5Al0.5P3O12,0.000248,-3.6055483191737836,10.1149/1.2086597,linked_0088,curated_training_label,close-match CIF,,,,True
 OBELIX:f4x,OBELiX,Li1.2Cr0.2Ti1.8(PO4)3,Li1.2Ti1.8Cr0.2P3O12,1.82e-05,-4.739928612014925,10.1149/1.2086597,linked_0088,curated_training_label,no CIF,,,,True
 OBELIX:txm,OBELiX,Li1.3Cr0.3Ti1.7(PO4)3,Li1.3Ti1.7Cr0.3P3O12,3.51e-05,-4.454692883534176,10.1149/1.2086597,linked_0088,curated_training_label,no CIF,,,,True
 OBELIX:v1t,OBELiX,Li1.4Cr0.4Ti1.6(PO4)3,Li1.4Ti1.6Cr0.4P3O12,0.000149,-3.826813731587726,10.1149/1.2086597,linked_0088,curated_training_label,no CIF,,,,True
 OBELIX:d6b,OBELiX,Li1.5Cr0.5Ti1.5(PO4)3,Li1.5Ti1.5Cr0.5P3O12,0.000386,-3.413412695328245,10.1149/1.2086597,linked_0088,curated_training_label,no CIF,,,,True
-OBELIX:x9a,OBELiX,Li1.2Ga0.2Ti1.8(PO4)3,Li1.2Ti1.8Ga0.2P3O12,0.000162,-3.7904849854573697,10.1149/1.2086597,linked_0088,curated_training_label,no CIF,,,,True
+OBELIX:x9a,OBELiX,Li1.2Ga0.2Ti1.8(PO4)3,Li1.2Ti1.8Ga0.2P3O12,0.000162,-3.7904849854573692,10.1149/1.2086597,linked_0088,curated_training_label,no CIF,,,,True
 OBELIX:3ta,OBELiX,Li1.3Ga0.3Ti1.7(PO4)3,Li1.3Ti1.7Ga0.3P3O12,0.000261,-3.583359492661719,10.1149/1.2086597,linked_0088,curated_training_label,no CIF,,,,True
-OBELIX:gjy,OBELiX,Li1.4Ga0.4Ti1.6(PO4)3,Li1.4Ti1.6Ga0.4P3O12,0.000128,-3.892790030352132,10.1149/1.2086597,linked_0088,curated_training_label,no CIF,,,,True
-OBELIX:lz8,OBELiX,Li1.5Ga0.5Ti1.5(PO4)3,Li1.5Ti1.5Ga0.5P3O12,0.000122,-3.913640169325251,10.1149/1.2086597,linked_0088,curated_training_label,no CIF,,,,True
+OBELIX:gjy,OBELiX,Li1.4Ga0.4Ti1.6(PO4)3,Li1.4Ti1.6Ga0.4P3O12,0.000128,-3.8927900303521317,10.1149/1.2086597,linked_0088,curated_training_label,no CIF,,,,True
+OBELIX:lz8,OBELiX,Li1.5Ga0.5Ti1.5(PO4)3,Li1.5Ti1.5Ga0.5P3O12,0.000122,-3.9136401693252516,10.1149/1.2086597,linked_0088,curated_training_label,no CIF,,,,True
 OBELIX:6st,OBELiX,Li1.2Fe0.2Ti1.8(PO4)3,Li1.2Ti1.8Fe0.2P3O12,0.00018,-3.744727494896694,10.1149/1.2086597,linked_0088,curated_training_label,no CIF,,,,True
 OBELIX:t9r,OBELiX,Li1.3Fe0.3Ti1.7(PO4)3,Li1.3Ti1.7Fe0.3P3O12,0.000246,-3.6090648928966207,10.1149/1.2086597,linked_0088,curated_training_label,no CIF,,,,True
 OBELIX:xr7,OBELiX,Li1.4Fe0.4Ti1.6(PO4)3,Li1.4Ti1.6Fe0.4P3O12,0.000392,-3.406713932979543,10.1149/1.2086597,linked_0088,curated_training_label,no CIF,,,,True
@@ -189,7 +189,7 @@ OBELIX:uaj,OBELiX,Li1.4Sc0.4Ti1.6(PO4)3,Li1.4Sc0.4Ti1.6P3O12,0.000515,-3.2881927
 OBELIX:5u3,OBELiX,Li1.2In0.2Ti1.8(PO4)3,Li1.2Ti1.8In0.2P3O12,0.00039,-3.408935392973501,10.1149/1.2086597,linked_0088,curated_training_label,no CIF,,,,True
 OBELIX:2eq,OBELiX,Li1.3In0.3Ti1.7(PO4)3,Li1.3Ti1.7In0.3P3O12,0.000393,-3.4056074496245734,10.1149/1.2086597,linked_0088,curated_training_label,no CIF,,,,True
 OBELIX:yn6,OBELiX,Li1.4In0.4Ti1.6(PO4)3,Li1.4Ti1.6In0.4P3O12,0.000302,-3.5199930570428495,10.1149/1.2086597,linked_0088,curated_training_label,no CIF,,,,True
-OBELIX:8jy,OBELiX,Li1.5In0.5Ti1.5(PO4)3,Li1.5Ti1.5In0.5P3O12,0.000204,-3.690369832574101,10.1149/1.2086597,linked_0088,curated_training_label,no CIF,,,,True
+OBELIX:8jy,OBELiX,Li1.5In0.5Ti1.5(PO4)3,Li1.5Ti1.5In0.5P3O12,0.000204,-3.6903698325741012,10.1149/1.2086597,linked_0088,curated_training_label,no CIF,,,,True
 OBELIX:p4l,OBELiX,Li1.2La0.2Ti1.8(PO4)3,Li1.2La0.2Ti1.8P3O12,8e-05,-4.096910013008056,10.1149/1.2086597,linked_0088,curated_training_label,no CIF,,,,True
 OBELIX:qkr,OBELiX,Li1.3La0.3Ti1.7(PO4)3,Li1.3La0.3Ti1.7P3O12,0.000523,-3.281498311132726,10.1149/1.2086597,linked_0088,curated_training_label,no CIF,,,,True
 OBELIX:e0z,OBELiX,Li1.4La0.4Ti1.6(PO4)3,Li1.4La0.4Ti1.6P3O12,0.000498,-3.3027706572402824,10.1149/1.2086597,linked_0088,curated_training_label,no CIF,,,,True
@@ -200,7 +200,7 @@ OBELIX:4ea,OBELiX,Li(Ti0.4Sn1.6)(PO4)3,Li1Ti0.4Sn1.6P3O12,3.15e-06,-5.5016894462
 OBELIX:z7n,OBELiX,Li0.86Hf2.035(PO4)3,Li0.86Hf2.035P3O12,9.2e-08,-7.036212172654444,10.1021/cm970078n,linked_0083,curated_training_label,matched CIF,,,,True
 OBELIX:7kf,OBELiX,Li1.7Al0.3Ti1.6(PO4)3,Li1.7Ti1.6Al0.3P3O12,0.00122,-2.9136401693252516,10.1016/s0167-2738(00)00493-8,linked_0084,curated_training_label,no CIF,,,,True
 OBELIX:i8k,OBELiX,Li1.2In0.2Ti1.8(PO4)3,Li1.2Ti1.8In0.2P3O12,8.22e-05,-4.0851281824599495,10.1021/cm030422i,linked_0088,curated_training_label,no CIF,,,,True
-OBELIX:hzf,OBELiX,Li1.3Al0.2Sc0.1Ti1.7(PO4)3,Li1.3Sc0.1Ti1.7Al0.2P3O12,0.000972,-3.012333735073726,10.1016/j.ssi.2012.03.045,linked_0088,curated_training_label,no CIF,,,,True
+OBELIX:hzf,OBELiX,Li1.3Al0.2Sc0.1Ti1.7(PO4)3,Li1.3Sc0.1Ti1.7Al0.2P3O12,0.000972,-3.0123337350737254,10.1016/j.ssi.2012.03.045,linked_0088,curated_training_label,no CIF,,,,True
 OBELIX:x61,OBELiX,Li1.3Al0.15Sc0.15Ti1.7(PO4)3,Li1.3Sc0.15Ti1.7Al0.15P3O12,0.00124,-2.906578314837765,10.1016/j.ssi.2012.03.045,linked_0088,curated_training_label,no CIF,,,,True
 OBELIX:czo,OBELiX,Li1.3Al0.1Sc0.2Ti1.7(PO4)3,Li1.3Sc0.2Ti1.7Al0.1P3O12,0.000429,-3.3675427078152755,10.1016/j.ssi.2012.03.045,linked_0088,curated_training_label,no CIF,,,,True
 OBELIX:o8s,OBELiX,Li1.3Sc0.3Ti1.7(PO4)3,Li1.3Sc0.3Ti1.7P3O12,0.000452,-3.344861565188618,10.1016/j.ssi.2012.03.045,linked_0088,curated_training_label,no CIF,,,,True
@@ -212,7 +212,7 @@ OBELIX:mg4,OBELiX,Li1.3Al0.3Ti1.7(PO4)3,Li1.3Ti1.7Al0.3P3O12,0.0062,-2.207608310
 OBELIX:50s,OBELiX,Li1.4Al0.4Ti1.6(PO4)3,Li1.4Ti1.6Al0.4P3O12,0.0033,-2.4814860601221125,10.1016/j.ssi.2014.07.018,linked_0088,curated_training_label,no CIF,,,,True
 OBELIX:d4q,OBELiX,Li1.05Cr0.05Ti1.95(PO4)3,Li1.05Ti1.95Cr0.05P3O12,0.00018,-3.744727494896694,10.1016/j.ssi.2014.07.018,linked_0088,curated_training_label,no CIF,,,,True
 OBELIX:6he,OBELiX,Li1.1Cr0.1Ti1.9(PO4)3,Li1.1Ti1.9Cr0.1P3O12,0.00026,-3.5850266520291822,10.1016/j.ssi.2014.07.018,linked_0088,curated_training_label,no CIF,,,,True
-OBELIX:pwy,OBELiX,Li1.2Cr0.2Ti1.8(PO4)3,Li1.2Ti1.8Cr0.2P3O12,0.00043,-3.366531544420414,10.1016/j.ssi.2014.07.018,linked_0088,curated_training_label,no CIF,,,,True
+OBELIX:pwy,OBELiX,Li1.2Cr0.2Ti1.8(PO4)3,Li1.2Ti1.8Cr0.2P3O12,0.00043,-3.3665315444204134,10.1016/j.ssi.2014.07.018,linked_0088,curated_training_label,no CIF,,,,True
 OBELIX:y9l,OBELiX,Li1.3Cr0.3Ti1.7(PO4)3,Li1.3Ti1.7Cr0.3P3O12,0.00029,-3.537602002101044,10.1016/j.ssi.2014.07.018,linked_0088,curated_training_label,no CIF,,,,True
 OBELIX:rc1,OBELiX,Li1.05Fe0.05Ti1.95(PO4)3,Li1.05Ti1.95Fe0.05P3O12,0.00013,-3.886056647693163,10.1016/j.ssi.2014.07.018,linked_0088,curated_training_label,no CIF,,,,True
 OBELIX:lzt,OBELiX,Li1.1Fe0.1Ti1.9(PO4)3,Li1.1Ti1.9Fe0.1P3O12,0.00063,-3.2006594505464183,10.1016/j.ssi.2014.07.018,linked_0088,curated_training_label,no CIF,,,,True
@@ -235,7 +235,7 @@ OBELIX:rr5,OBELiX,LiTi2(PO4)3,LiTi2(PO4)3,7.2e-05,-4.142667503568732,10.1007/s11
 OBELIX:6j9,OBELiX,Li1.15Fe0.15Ti1.85(PO4)3,Li1.15Ti1.85Fe0.15P3O12,0.000522,-3.282329496997738,10.1007/s11164-013-1348-0,linked_0088,curated_training_label,no CIF,,,,True
 OBELIX:0x9,OBELiX,Li1.2Sc0.2Ti1.8(PO4)3,Li1.2Sc0.2Ti1.8P3O12,0.000246,-3.6090648928966207,10.1016/0167-2738(86)90179-7,linked_0088,curated_training_label,no CIF,,,,True
 OBELIX:iwe,OBELiX,Li1.3Sc0.3Ti1.7(PO4)3,Li1.3Sc0.3Ti1.7P3O12,0.000407,-3.39040559077478,10.1016/0167-2738(86)90179-7,linked_0088,curated_training_label,no CIF,,,,True
-OBELIX:ib2,OBELiX,Li1.1Sc0.1Ti1.9(PO4)3,Li1.1Sc0.1Ti1.9P3O12,0.000158,-3.801342913045578,10.1016/0167-2738(86)90179-7,linked_0088,curated_training_label,no CIF,,,,True
+OBELIX:ib2,OBELiX,Li1.1Sc0.1Ti1.9(PO4)3,Li1.1Sc0.1Ti1.9P3O12,0.000158,-3.8013429130455774,10.1016/0167-2738(86)90179-7,linked_0088,curated_training_label,no CIF,,,,True
 OBELIX:ppz,OBELiX,Li1.3In0.3Hf1.7(PO4)3,Li1.3Hf1.7In0.3P3O12,1e-05,-5.0,10.1016/0167-2738(86)90179-7,linked_0088,curated_training_label,no CIF,,,,True
 OBELIX:ci1,OBELiX,LiTi0.2Zr1.8(PO4)3,Li1Zr1.8Ti0.2P3O12,5.6e-08,-7.251811972993799,10.1016/0167-2738(86)90179-7,linked_0088,curated_training_label,no CIF,,,,True
 OBELIX:08e,OBELiX,LiTi1.8Zr0.2(PO4)3,Li1Zr0.2Ti1.8P3O12,8.5e-08,-7.070581074285707,10.1016/0167-2738(86)90179-7,linked_0088,curated_training_label,no CIF,,,,True
@@ -276,7 +276,7 @@ OBELIX:vtr,OBELiX,LiFeSb(PO4)3,LiFeSb(PO4)3,1.37e-06,-5.863279432843593,10.1063/
 OBELIX:tvf,OBELiX,Li3(NH2)2I,Li3H4IN2,1e-05,-5.0,10.1021/cm1006857,linked_0092,curated_training_label,matched CIF,,,,True
 OBELIX:gvd,OBELiX,Li3N,Li3N,0.0005767,-3.2390500485891027,10.1039/c0ee00052c,linked_0093,curated_training_label,matched CIF,,,,True
 OBELIX:11b,OBELiX,Li3P,Li3P,0.000703,-3.153044674980176,10.1016/0167-2738(89)90438-4,linked_0094,curated_training_label,matched CIF,,,,True
-OBELIX:fft,OBELiX,Li3N,Li3N,0.0002085,-3.680893940690224,10.1016/0167-2738(83)90045-0,linked_0095,curated_training_label,matched CIF,,,,True
+OBELIX:fft,OBELiX,Li3N,Li3N,0.0002085,-3.6808939406902237,10.1016/0167-2738(83)90045-0,linked_0095,curated_training_label,matched CIF,,,,True
 OBELIX:lf5,OBELiX,Li6BaLa2Nb2O12,BaLi6La2Nb2O12,6e-06,-5.221848749616356,10.1111/j.1551-2916.2005.00060.x,linked_0135,curated_training_label,no CIF,,,,True
 OBELIX:68u,OBELiX,Li5La3Nb2O12,Li5La3Nb2O12,8e-06,-5.096910013008056,10.1111/j.1551-2916.2005.00060.x,linked_0135,curated_training_label,close-match CIF,,,,True
 OBELIX:gyw,OBELiX,Li6SrLa2Ta2O12,SrLi6La2Ta2O12,4.2e-06,-5.376750709602099,10.1111/j.1551-2916.2005.00060.x,linked_0135,curated_training_label,no CIF,,,,True
@@ -329,7 +329,7 @@ OBELIX:5wz,OBELiX,Li6PS5I,Li6PS5I,1.26e-06,-5.8996294548824375,10.1021/jacs.8b10
 OBELIX:5gj,OBELiX,Li6.1P0.90Ge0.1S5I,Li6.1Ge0.1P0.9S5I1,8.86e-06,-5.052566278112949,10.1021/jacs.8b10282,linked_0101,curated_training_label,no CIF,,,,True
 OBELIX:t17,OBELiX,Li6.15P0.85Ge0.15S5I,Li6.15Ge0.15P0.85S5I1,3.93e-05,-4.405607449624573,10.1021/jacs.8b10282,linked_0101,curated_training_label,no CIF,,,,True
 OBELIX:kf7,OBELiX,Li6.2P0.8Ge0.2S5I,Li6.2Ge0.2P0.8S5I1,3.19e-05,-4.496209316942819,10.1021/jacs.8b10282,linked_0101,curated_training_label,no CIF,,,,True
-OBELIX:utv,OBELiX,Li6.25P0.75Ge0.25S5I,Li6.25Ge0.25P0.75S5I1,0.00015,-3.823908740944318,10.1021/jacs.8b10282,linked_0101,curated_training_label,no CIF,,,,True
+OBELIX:utv,OBELiX,Li6.25P0.75Ge0.25S5I,Li6.25Ge0.25P0.75S5I1,0.00015,-3.8239087409443187,10.1021/jacs.8b10282,linked_0101,curated_training_label,no CIF,,,,True
 OBELIX:q9f,OBELiX,Li6.3P0.7Ge0.3S5I,Li6.3Ge0.3P0.7S5I1,0.00065,-3.1870866433571443,10.1021/jacs.8b10282,linked_0101,curated_training_label,no CIF,,,,True
 OBELIX:5qw,OBELiX,Li6.4P0.6Ge0.4S5I,Li6.4Ge0.4P0.6S5I1,0.0015,-2.8239087409443187,10.1021/jacs.8b10282,linked_0101,curated_training_label,no CIF,,,,True
 OBELIX:znj,OBELiX,Li6.5P0.5Ge0.5S5I,Li6.5Ge0.5P0.5S5I1,0.00186,-2.7304870557820835,10.1021/jacs.8b10282,linked_0101,curated_training_label,no CIF,,,,True
@@ -432,7 +432,7 @@ OBELIX:2mn,OBELiX,Li7La3Zr2O12,Li7La3Zr2O12,0.000511,-3.291579099865287,10.1002/
 OBELIX:8ee,OBELiX, Li6.4Al0.19La3Zr2O11.8,Li6.4La3Zr2Al0.19O11.8,0.00031,-3.5086383061657274,10.1016/j.jpowsour.2012.02.100,linked_0142,curated_training_label,no CIF,,,,True
 OBELIX:8k7,OBELiX,Li5La3Ta2O12,Li5La3Ta2O12,1.54e-06,-5.812479279163537,10.1016/j.ssi.2009.11.015,linked_0147,curated_training_label,no CIF,,,,True
 OBELIX:b7v,OBELiX,Li5La3Bi2O12,Li5La3(BiO6)2,2.2e-05,-4.657577319177793,10.1016/j.ssi.2017.03.030,linked_0143,curated_training_label,no CIF,,,,True
-OBELIX:66a,OBELiX,Li6.75La3Zr1.75Nb0.25O12 ,Li6.75La3Zr1.75Nb0.25O12,0.0008,-3.096910013008056,10.1016/j.jpowsour.2010.11.089,linked_0144,curated_training_label,no CIF,,,,True
+OBELIX:66a,OBELiX,Li6.75La3Zr1.75Nb0.25O12 ,Li6.75La3Zr1.75Nb0.25O12,0.0008,-3.0969100130080562,10.1016/j.jpowsour.2010.11.089,linked_0144,curated_training_label,no CIF,,,,True
 OBELIX:kh3,OBELiX,Li6.5La3Zr1.5Ta0.5O12 ,Li6.5La3Zr1.5Ta0.5O12,0.00092,-3.036212172654445,10.1039/c2jm31413d,linked_0147,curated_training_label,close-match CIF,,,,True
 OBELIX:zqx,OBELiX,Li6.6La3Zr1.6Ta0.4O12 ,Li6.6La3Zr1.6Ta0.4O12,0.00073,-3.136677139879544,10.1039/c2jm31413d,linked_0147,curated_training_label,no CIF,,,,True
 OBELIX:o5q,OBELiX,Li6.8La3Zr1.8Ta0.2O12 ,Li6.8La3Zr1.8Ta0.2O12,0.00028,-3.552841968657781,10.1039/c2jm31413d,linked_0147,curated_training_label,close-match CIF,,,,True
@@ -442,7 +442,7 @@ OBELIX:dbs,OBELiX,Li6.5La3Zr1.5Ta0.5O12,Li6.5La3Zr1.5Ta0.5O12,0.000794,-3.100179
 OBELIX:bt0,OBELiX,Li6.5La2.95Ba0.05Zr1.45Ta0.55O12,Ba0.05Li6.5La2.95Zr1.45Ta0.55O12,0.000832,-3.079876673709276,10.3389/fenrg.2016.00028,linked_0147,curated_training_label,no CIF,,,,True
 OBELIX:dti,OBELiX,Li6.5La2.9Ba0.1Zr1.4Ta0.6O12,Ba0.1Li6.5La2.9Zr1.4Ta0.6O12,0.000834,-3.078833949362261,10.3389/fenrg.2016.00028,linked_0147,curated_training_label,no CIF,,,,True
 OBELIX:7gm,OBELiX,Li6.5La2.8Ba0.2Zr1.3Ta0.7O12,Ba0.2Li6.5La2.8Zr1.3Ta0.7O12,0.000631,-3.1999706407558657,10.3389/fenrg.2016.00028,linked_0147,curated_training_label,no CIF,,,,True
-OBELIX:c71,OBELiX,Li6.5La2.7Ba0.3Zr1.2Ta0.8O12,Ba0.3Li6.5La2.7Zr1.2Ta0.8O12,0.000492,-3.308034897232639,10.3389/fenrg.2016.00028,linked_0147,curated_training_label,no CIF,,,,True
+OBELIX:c71,OBELiX,Li6.5La2.7Ba0.3Zr1.2Ta0.8O12,Ba0.3Li6.5La2.7Zr1.2Ta0.8O12,0.000492,-3.3080348972326394,10.3389/fenrg.2016.00028,linked_0147,curated_training_label,no CIF,,,,True
 OBELIX:rgo,OBELiX,Li7La3Ta2O13,Li7La3Ta2O13,2.65e-06,-5.576754126063192,10.1016/j.ssi.2009.07.002,linked_0148,curated_training_label,no CIF,,,,True
 OBELIX:zzr,OBELiX,Li10GeP2S12,Li10Ge(PS6)2,0.0076,-2.1191864077192086,10.1021/jacs.0c10735,linked_0150,curated_training_label,matched CIF,,,,True
 OBELIX:kop,OBELiX,Li10Ge0.66Sn0.33P2S12,Li10Sn0.33Ge0.66P2S12,0.0064,-2.193820026016113,10.1021/jacs.0c10735,linked_0150,curated_training_label,matched CIF,,,,True
@@ -457,7 +457,7 @@ CALTECH:0015,CaltechDATA,Li1.421Al0.421Ti1.579(PO4)3,Li1.421Ti1.579Al0.421P3O12,
 CALTECH:0016,CaltechDATA,Li1.414Al0.511Ti1.489(PO4)3,Li1.414Ti1.489Al0.511P3O12,0.0047,-2.3279021420642825,10.1016/j.solidstatesciences.2016.08.011,CALTECH:DOI:10.1016/j.solidstatesciences.2016.08.011,provisional_original_paper_pending,ICSD_identifier_only_no_public_CIF,,,,False
 CALTECH:0019,CaltechDATA,Li6.2P0.8Si0.2S5I,Li6.2Si0.2P0.8S5I1,7.16e-05,-4.145086977692144,10.1021/acs.chemmater.9b01857,CALTECH:DOI:10.1021/acs.chemmater.9b01857,provisional_original_paper_pending,ICSD_identifier_only_no_public_CIF,,,,False
 CALTECH:0020,CaltechDATA,Li6.25P0.75Si0.25S5I,Li6.25Si0.25P0.75S5I1,0.000169031,-3.772033639207001,10.1021/acs.chemmater.9b01857,CALTECH:DOI:10.1021/acs.chemmater.9b01857,provisional_original_paper_pending,ICSD_identifier_only_no_public_CIF,,,,False
-CALTECH:0021,CaltechDATA,Li6.3P0.7Si0.3S5I,Li6.3Si0.3P0.7S5I1,0.000466257,-3.33137463499333,10.1021/acs.chemmater.9b01857,CALTECH:DOI:10.1021/acs.chemmater.9b01857,provisional_original_paper_pending,ICSD_identifier_only_no_public_CIF,,,,False
+CALTECH:0021,CaltechDATA,Li6.3P0.7Si0.3S5I,Li6.3Si0.3P0.7S5I1,0.000466257,-3.3313746349933306,10.1021/acs.chemmater.9b01857,CALTECH:DOI:10.1021/acs.chemmater.9b01857,provisional_original_paper_pending,ICSD_identifier_only_no_public_CIF,,,,False
 CALTECH:0022,CaltechDATA,Li6.4P0.6Si0.4S5I,Li6.4Si0.4P0.6S5I1,0.000836458,-3.077555860829707,10.1021/acs.chemmater.9b01857,CALTECH:DOI:10.1021/acs.chemmater.9b01857,provisional_original_paper_pending,ICSD_identifier_only_no_public_CIF,,,,False
 CALTECH:0023,CaltechDATA,Li6.5P0.5Si0.5S5I,Li6.5Si0.5P0.5S5I1,0.001361319,-2.8660400939690978,10.1021/acs.chemmater.9b01857,CALTECH:DOI:10.1021/acs.chemmater.9b01857,provisional_original_paper_pending,ICSD_identifier_only_no_public_CIF,,,,False
 CALTECH:0024,CaltechDATA,Li6.6P0.4Si0.6S5I,Li6.6Si0.6P0.4S5I1,0.00156275,-2.806110492425159,10.1021/acs.chemmater.9b01857,CALTECH:DOI:10.1021/acs.chemmater.9b01857,provisional_original_paper_pending,ICSD_identifier_only_no_public_CIF,,,,False
@@ -472,8 +472,8 @@ CALTECH:0032,CaltechDATA,LiMgPO4,LiMgPO4,5.23e-12,-11.281498311132726,10.1021/cm
 CALTECH:0033,CaltechDATA,Li3.81Sn0.85Sb0.15S4,Li3.81Sn0.85Sb0.15S4,0.00085,-3.070581074285707,10.1016/j.jpowsour.2019.227338,CALTECH:DOI:10.1016/j.jpowsour.2019.227338,provisional_original_paper_pending,ICSD_identifier_only_no_public_CIF,,,,False
 CALTECH:0035,CaltechDATA,Li3.83Sn0.9Sb0.1S4,Li3.83Sn0.9Sb0.1S4,0.00062,-3.207608310501746,10.1016/j.jpowsour.2019.227338,CALTECH:DOI:10.1016/j.jpowsour.2019.227338,provisional_original_paper_pending,ICSD_identifier_only_no_public_CIF,,,,False
 CALTECH:0036,CaltechDATA,Li3.72Sn0.8Sb0.2S4,Li3.72Sn0.8Sb0.2S4,0.00079,-3.1023729087095586,10.1016/j.jpowsour.2019.227338,CALTECH:DOI:10.1016/j.jpowsour.2019.227338,provisional_original_paper_pending,ICSD_identifier_only_no_public_CIF,,,,False
-CALTECH:0045,CaltechDATA,Li3.5Si0.5P0.5S4,Li3.5Si0.5P0.5S4,0.000612,-3.213248577854438,10.1021/acs.chemmater.9b00657,CALTECH:DOI:10.1021/acs.chemmater.9b00657,provisional_original_paper_pending,ICSD_identifier_only_no_public_CIF,,,,False
-CALTECH:0046,CaltechDATA,Li3.67Si0.67P0.33S4,Li3.67Si0.67P0.33S4,0.000231,-3.636388020107856,10.1021/acs.chemmater.9b00657,CALTECH:DOI:10.1021/acs.chemmater.9b00657,provisional_original_paper_pending,ICSD_identifier_only_no_public_CIF,,,,False
+CALTECH:0045,CaltechDATA,Li3.5Si0.5P0.5S4,Li3.5Si0.5P0.5S4,0.000612,-3.2132485778544386,10.1021/acs.chemmater.9b00657,CALTECH:DOI:10.1021/acs.chemmater.9b00657,provisional_original_paper_pending,ICSD_identifier_only_no_public_CIF,,,,False
+CALTECH:0046,CaltechDATA,Li3.67Si0.67P0.33S4,Li3.67Si0.67P0.33S4,0.000231,-3.6363880201078556,10.1021/acs.chemmater.9b00657,CALTECH:DOI:10.1021/acs.chemmater.9b00657,provisional_original_paper_pending,ICSD_identifier_only_no_public_CIF,,,,False
 CALTECH:0047,CaltechDATA,Li3.15Si0.15P0.85S4,Li3.15Si0.15P0.85S4,0.00115,-2.939302159646388,10.1021/acs.chemmater.9b00657,CALTECH:DOI:10.1021/acs.chemmater.9b00657,provisional_original_paper_pending,ICSD_identifier_only_no_public_CIF,,,,False
 CALTECH:0048,CaltechDATA,Li3.25Si0.25P0.75S4,Li3.25Si0.25P0.75S4,0.00122,-2.9136401693252516,10.1021/acs.chemmater.9b00657,CALTECH:DOI:10.1021/acs.chemmater.9b00657,provisional_original_paper_pending,ICSD_identifier_only_no_public_CIF,,,,False
 CALTECH:0049,CaltechDATA,Li3.33Si0.33P0.67S4,Li3.33Si0.33P0.67S4,0.00104,-2.9829666607012197,10.1021/acs.chemmater.9b00657,CALTECH:DOI:10.1021/acs.chemmater.9b00657,provisional_original_paper_pending,ICSD_identifier_only_no_public_CIF,,,,False
@@ -504,7 +504,7 @@ CALTECH:0105,CaltechDATA,Li29Zr9Nb3O40,Li29Zr9Nb3O40,0.000175,-3.756961951313705
 CALTECH:0106,CaltechDATA,Li2.10Sn0.90O2.85,Li2.1Sn0.9O2.85,1e-06,-6.0,10.1016/j.ssi.2021.115610,CALTECH:DOI:10.1016/j.ssi.2021.115610,provisional_original_paper_pending,ICSD_identifier_only_no_public_CIF,,,,False
 CALTECH:0109,CaltechDATA,LiNi0.33Co0.33Mn0.33O2,Li1Mn0.33Co0.33Ni0.33O2,6.46e-08,-7.189767482004916,10.1021/acsaem.0c02606,CALTECH:DOI:10.1021/acsaem.0c02606,provisional_original_paper_pending,ICSD_identifier_only_no_public_CIF,,,,False
 CALTECH:0112,CaltechDATA,Li0.17Sr0.92Ta2O6,Sr0.92Li0.17Ta2O6,3.41e-10,-9.467245621007502,10.1039/c8ra02779j,CALTECH:DOI:10.1039/c8ra02779j,provisional_original_paper_pending,ICSD_identifier_only_no_public_CIF,,,,False
-CALTECH:0113,CaltechDATA,Li0.25Sr0.88Ta2O6,Sr0.88Li0.25Ta2O6,1.1e-10,-9.958607314841776,10.1039/c8ra02779j,CALTECH:DOI:10.1039/c8ra02779j,provisional_original_paper_pending,ICSD_identifier_only_no_public_CIF,,,,False
+CALTECH:0113,CaltechDATA,Li0.25Sr0.88Ta2O6,Sr0.88Li0.25Ta2O6,1.1e-10,-9.958607314841775,10.1039/c8ra02779j,CALTECH:DOI:10.1039/c8ra02779j,provisional_original_paper_pending,ICSD_identifier_only_no_public_CIF,,,,False
 CALTECH:0117,CaltechDATA,LiIO3,LiIO3,1.9e-07,-6.721246399047171,10.1016/s0038-1098(00)00247-7,CALTECH:DOI:10.1016/s0038-1098(00)00247-7,provisional_original_paper_pending,ICSD_identifier_only_no_public_CIF,,,,False
 CALTECH:0121,CaltechDATA,Li1.396Fe0.42Ge1.58(PO4)3,Li1.396Fe0.42Ge1.58P3O12,1.07e-06,-5.97061622231479,10.1016/j.jallcom.2020.156338,CALTECH:DOI:10.1016/j.jallcom.2020.156338,provisional_original_paper_pending,ICSD_identifier_only_no_public_CIF,,,,False
 CALTECH:0122,CaltechDATA,Li1.396Fe0.42Ge1.58(PO4)3,Li1.396Fe0.42Ge1.58P3O12,1.71e-05,-4.767003889607846,10.1016/j.jallcom.2020.156338,CALTECH:DOI:10.1016/j.jallcom.2020.156338,provisional_original_paper_pending,ICSD_identifier_only_no_public_CIF,,,,False
@@ -537,13 +537,13 @@ CALTECH:0226,CaltechDATA,Li3.55(Ge0.416Si0.12V0.464)O4,Li3.55V0.464Si0.12Ge0.416
 CALTECH:0227,CaltechDATA,Li9.54Si1.74P1.44S11.4Cl0.3O0.3,Li9.54Si1.74P1.44S11.4Cl0.3O0.3,0.028,-1.5528419686577808,10.1021/acs.chemmater.0c02351,CALTECH:DOI:10.1021/acs.chemmater.0c02351,provisional_original_paper_pending,ICSD_identifier_only_no_public_CIF,,,,False
 CALTECH:0228,CaltechDATA,Li5.82PS4.7ClBr,Li5.82P1S4.7Br1Cl1,0.00502,-2.2992962828549808,10.1021/acs.chemmater.0c04650,CALTECH:DOI:10.1021/acs.chemmater.0c04650,provisional_original_paper_pending,ICSD_identifier_only_no_public_CIF,,,,False
 CALTECH:0229,CaltechDATA,Li5.58PS4.7ClBr0.3,Li5.58P1S4.7Br0.3Cl1,0.0124,-1.9065783148377649,10.1021/acs.chemmater.0c04650,CALTECH:DOI:10.1021/acs.chemmater.0c04650,provisional_original_paper_pending,ICSD_identifier_only_no_public_CIF,,,,False
-CALTECH:0230,CaltechDATA,Li5.64PS4.5ClBr0.5,Li5.64P1S4.5Br0.5Cl1,0.017,-1.769551078621726,10.1021/acs.chemmater.0c04650,CALTECH:DOI:10.1021/acs.chemmater.0c04650,provisional_original_paper_pending,ICSD_identifier_only_no_public_CIF,,,,False
-CALTECH:0231,CaltechDATA,Li5.52PS4.3ClBr0.7,Li5.52P1S4.3Br0.7Cl1,0.024,-1.619788758288394,10.1021/acs.chemmater.0c04650,CALTECH:DOI:10.1021/acs.chemmater.0c04650,provisional_original_paper_pending,ICSD_identifier_only_no_public_CIF,,,,False
+CALTECH:0230,CaltechDATA,Li5.64PS4.5ClBr0.5,Li5.64P1S4.5Br0.5Cl1,0.017,-1.7695510786217261,10.1021/acs.chemmater.0c04650,CALTECH:DOI:10.1021/acs.chemmater.0c04650,provisional_original_paper_pending,ICSD_identifier_only_no_public_CIF,,,,False
+CALTECH:0231,CaltechDATA,Li5.52PS4.3ClBr0.7,Li5.52P1S4.3Br0.7Cl1,0.024,-1.6197887582883939,10.1021/acs.chemmater.0c04650,CALTECH:DOI:10.1021/acs.chemmater.0c04650,provisional_original_paper_pending,ICSD_identifier_only_no_public_CIF,,,,False
 CALTECH:0233,CaltechDATA,Li6PS5CN,Li6PCS5N,6e-05,-4.221848749616356,10.1021/acs.chemmater.1c01170,CALTECH:DOI:10.1021/acs.chemmater.1c01170,provisional_original_paper_pending,ICSD_identifier_only_no_public_CIF,,,,False
 CALTECH:0235,CaltechDATA,Li2.9In0.9Zr0.1Cl6,Li2.9Zr0.1In0.9Cl6,0.000801,-3.0963674839157624,10.1021/acs.chemmater.1c01348,CALTECH:DOI:10.1021/acs.chemmater.1c01348,provisional_original_paper_pending,ICSD_identifier_only_no_public_CIF,,,,False
 CALTECH:0236,CaltechDATA,Li2.8In0.78Zr0.18Cl6,Li2.8Zr0.18In0.78Cl6,0.000763,-3.1174754620451197,10.1021/acs.chemmater.1c01348,CALTECH:DOI:10.1021/acs.chemmater.1c01348,provisional_original_paper_pending,ICSD_identifier_only_no_public_CIF,,,,False
 CALTECH:0237,CaltechDATA,Li2.66In0.69Zr0.29Cl6,Li2.66Zr0.29In0.69Cl6,0.000949,-3.022733787572707,10.1021/acs.chemmater.1c01348,CALTECH:DOI:10.1021/acs.chemmater.1c01348,provisional_original_paper_pending,ICSD_identifier_only_no_public_CIF,,,,False
-CALTECH:0238,CaltechDATA,Li2.6In0.6Zr0.4Cl6,Li2.6Zr0.4In0.6Cl6,0.00125,-2.903089986991944,10.1021/acs.chemmater.1c01348,CALTECH:DOI:10.1021/acs.chemmater.1c01348,provisional_original_paper_pending,ICSD_identifier_only_no_public_CIF,,,,False
+CALTECH:0238,CaltechDATA,Li2.6In0.6Zr0.4Cl6,Li2.6Zr0.4In0.6Cl6,0.00125,-2.9030899869919438,10.1021/acs.chemmater.1c01348,CALTECH:DOI:10.1021/acs.chemmater.1c01348,provisional_original_paper_pending,ICSD_identifier_only_no_public_CIF,,,,False
 CALTECH:0239,CaltechDATA,Li2.5In0.5Zr0.5Cl6,Li2.5Zr0.5In0.5Cl6,0.000882,-3.05453141486818,10.1021/acs.chemmater.1c01348,CALTECH:DOI:10.1021/acs.chemmater.1c01348,provisional_original_paper_pending,ICSD_identifier_only_no_public_CIF,,,,False
 CALTECH:0240,CaltechDATA,LiScP2S6,LiSc(PS3)2,4.5e-11,-10.346787486224656,10.1002/zaac.201800363,CALTECH:DOI:10.1002/zaac.201800363,provisional_original_paper_pending,ICSD_identifier_only_no_public_CIF,,,,False
 CALTECH:0241,CaltechDATA,LiScP2S6,LiSc(PS3)2,1.2e-09,-8.920818753952375,10.1002/zaac.201800363,CALTECH:DOI:10.1002/zaac.201800363,provisional_original_paper_pending,ICSD_identifier_only_no_public_CIF,,,,False
@@ -564,7 +564,7 @@ CALTECH:0273,CaltechDATA,Li6B7S13I,Li6B7S13I,0.000476,-3.322393047279507,10.1021
 CALTECH:0274,CaltechDATA,Li4.4B10S18Cl1.8,Li4.4B10S18Cl1.8,0.00052,-3.283996656365201,10.1002/anie.202013339,CALTECH:DOI:10.1002/anie.202013339,provisional_original_paper_pending,ICSD_identifier_only_no_public_CIF,,,,False
 CALTECH:0275,CaltechDATA,Li5.6B10S18Br1.7,Li5.6B10S18Br1.7,0.000942,-3.0259490972071226,10.1002/anie.202013339,CALTECH:DOI:10.1002/anie.202013339,provisional_original_paper_pending,ICSD_identifier_only_no_public_CIF,,,,False
 CALTECH:0276,CaltechDATA,Li6.8B10S18I1.6,Li6.8B10S18I1.6,0.00142,-2.8477116556169437,10.1002/anie.202013339,CALTECH:DOI:10.1002/anie.202013339,provisional_original_paper_pending,ICSD_identifier_only_no_public_CIF,,,,False
-CALTECH:0292,CaltechDATA,Li4BN3H10,Li4BH10N3,0.0002,-3.6989700043360183,10.1021/ja907249p,CALTECH:DOI:10.1021/ja907249p,provisional_original_paper_pending,ICSD_identifier_only_no_public_CIF,,,,False
+CALTECH:0292,CaltechDATA,Li4BN3H10,Li4BH10N3,0.0002,-3.6989700043360187,10.1021/ja907249p,CALTECH:DOI:10.1021/ja907249p,provisional_original_paper_pending,ICSD_identifier_only_no_public_CIF,,,,False
 CALTECH:0307,CaltechDATA,Li1.4(Al0.4Ge0.2Ti1.4)(PO4)3,Li1.4Ti1.4Al0.4Ge0.2P3O12,0.002,-2.6989700043360187,10.3166/acsm.32.561-572,CALTECH:DOI:10.3166/acsm.32.561-572,provisional_original_paper_pending,ICSD_identifier_only_no_public_CIF,,,,False
 CALTECH:0308,CaltechDATA,Li1.6(Al0.6Ge0.2Ti1.2)(PO4)3,Li1.6Ti1.2Al0.6Ge0.2P3O12,2e-05,-4.698970004336019,10.3166/acsm.32.561-572,CALTECH:DOI:10.3166/acsm.32.561-572,provisional_original_paper_pending,ICSD_identifier_only_no_public_CIF,,,,False
 CALTECH:0309,CaltechDATA,Li1.2(Al0.2Ge0.4Ti1.4)(PO4)3,Li1.2Ti1.4Al0.2Ge0.4P3O12,0.0007,-3.154901959985743,10.3166/acsm.32.561-572,CALTECH:DOI:10.3166/acsm.32.561-572,provisional_original_paper_pending,ICSD_identifier_only_no_public_CIF,,,,False
@@ -584,7 +584,7 @@ CALTECH:0363,CaltechDATA,(La0.46Li0.429Sr0.111)(TiO3),Sr0.111Li0.429La0.46Ti1O3,
 CALTECH:0364,CaltechDATA,(La0.402Li0.368Sr0.230)(TiO3),Sr0.23Li0.368La0.402Ti1O3,2.87e-05,-4.542118103266008,10.1016/j.ceramint.2013.05.083,CALTECH:DOI:10.1016/j.ceramint.2013.05.083,provisional_original_paper_pending,ICSD_identifier_only_no_public_CIF,,,,False
 CALTECH:0366,CaltechDATA,Li6.46Al0.081La3Zr2O12,Li6.46La3Zr2Al0.081O12,0.00049,-3.309803919971486,10.1016/j.ssi.2014.01.043,CALTECH:DOI:10.1016/j.ssi.2014.01.043,provisional_original_paper_pending,ICSD_identifier_only_no_public_CIF,,,,False
 CALTECH:0369,CaltechDATA,Li2(B3PO8),Li2B3PO8,0.00052,-3.283996656365201,10.1016/j.ssi.2014.10.009,CALTECH:DOI:10.1016/j.ssi.2014.10.009,provisional_original_paper_pending,ICSD_identifier_only_no_public_CIF,,,,False
-CALTECH:0421,CaltechDATA,Li4SiO4,Li4SiO4,5e-10,-9.30102999566398,10.1016/0022-4596(84)90114-2,CALTECH:DOI:10.1016/0022-4596(84)90114-2,provisional_original_paper_pending,ICSD_identifier_only_no_public_CIF,,,,False
+CALTECH:0421,CaltechDATA,Li4SiO4,Li4SiO4,5e-10,-9.301029995663981,10.1016/0022-4596(84)90114-2,CALTECH:DOI:10.1016/0022-4596(84)90114-2,provisional_original_paper_pending,ICSD_identifier_only_no_public_CIF,,,,False
 CALTECH:0433,CaltechDATA,LiY(BH4)4,LiY(BH4)4,1.26e-06,-5.8996294548824375,10.1039/c6ta02761j,CALTECH:DOI:10.1039/c6ta02761j,provisional_original_paper_pending,ICSD_identifier_only_no_public_CIF,,,,False
 CALTECH:0434,CaltechDATA,Li(BH4),LiBH4,1e-08,-8.0,10.1039/c6ta02761j,CALTECH:DOI:10.1039/c6ta02761j,provisional_original_paper_pending,ICSD_identifier_only_no_public_CIF,,,,False
 CALTECH:0436,CaltechDATA,H2Ca1Li2N2,Li2Ca(HN)2,6.4e-06,-5.1938200260161125,10.1039/c2cp23636b,CALTECH:DOI:10.1039/c2cp23636b,provisional_original_paper_pending,ICSD_identifier_only_no_public_CIF,,,,False
@@ -606,7 +606,7 @@ CALTECH:0514,CaltechDATA,Hf2La3(Li6.74Al0.08)O12,Li6.74La3Hf2Al0.08O12,8e-05,-4.
 CALTECH:0529,CaltechDATA,LiMgSO4F,LiMgSO4F,5.4e-08,-7.267606240177032,10.1021/jp304767d,CALTECH:DOI:10.1021/jp304767d,provisional_original_paper_pending,ICSD_identifier_only_no_public_CIF,,,,False
 CALTECH:0530,CaltechDATA,LiCl*H2O,LiH2ClO,1e-08,-8.0,10.1002/cphc.200390060,CALTECH:DOI:10.1002/cphc.200390060,provisional_original_paper_pending,ICSD_identifier_only_no_public_CIF,,,,False
 CALTECH:0537,CaltechDATA,(Li0.16Sr0.69)(Ga0.25Ta0.75)O3,Sr0.69Li0.16Ta0.75Ga0.25O3,3.69e-06,-5.432973633840939,10.1016/j.jssc.2015.01.007,CALTECH:DOI:10.1016/j.jssc.2015.01.007,provisional_original_paper_pending,ICSD_identifier_only_no_public_CIF,,,,False
-CALTECH:0539,CaltechDATA,Li2ZnI4,Li2ZnI4,4e-08,-7.397940008672037,10.1016/j.ssi.2007.10.018,CALTECH:DOI:10.1016/j.ssi.2007.10.018,provisional_original_paper_pending,ICSD_identifier_only_no_public_CIF,,,,False
+CALTECH:0539,CaltechDATA,Li2ZnI4,Li2ZnI4,4e-08,-7.3979400086720375,10.1016/j.ssi.2007.10.018,CALTECH:DOI:10.1016/j.ssi.2007.10.018,provisional_original_paper_pending,ICSD_identifier_only_no_public_CIF,,,,False
 CALTECH:0540,CaltechDATA,Li10.34Si1.35P1.65S9.68O2.3,Li10.34Si1.35P1.65S9.68O2.3,0.00313,-2.5044556624535517,10.1021/acs.chemmater.9b00505,CALTECH:DOI:10.1021/acs.chemmater.9b00505,provisional_original_paper_pending,ICSD_identifier_only_no_public_CIF,,,,False
 CALTECH:0541,CaltechDATA,Li13.73Si1.35P1.65S10.46O1.54,Li13.73Si1.35P1.65S10.46O1.54,0.00269,-2.570247719997592,10.1021/acs.chemmater.9b00505,CALTECH:DOI:10.1021/acs.chemmater.9b00505,provisional_original_paper_pending,ICSD_identifier_only_no_public_CIF,,,,False
 CALTECH:0543,CaltechDATA,Li6.22P0.8Si0.2S5I,Li6.22Si0.2P0.8S5I1,7.79e-06,-5.108462542327436,10.1021/acs.chemmater.9b01857,CALTECH:DOI:10.1021/acs.chemmater.9b01857,provisional_original_paper_pending,ICSD_identifier_only_no_public_CIF,,,,False

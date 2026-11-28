@@ -1,0 +1,13 @@
+ipykernel
+jupyter
+nbconvert
+mp-api
+pymatgen
+pandas
+numpy
+matplotlib
+scikit-learn
+xgboost
+python-dotenv
+tqdm
+joblib
